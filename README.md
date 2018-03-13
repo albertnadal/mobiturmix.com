@@ -8,7 +8,7 @@ Technologies used: GNU/Linux, Apache, PHP, MySQL, git, ffmpeg, ImageMagick, WURF
 
 ![](http://www.lafruitera.com/mobiturmix-handset-preview.jpg)
 
-![](http://www.lafruitera.com/ng2-daterange-picker.gif)
+![](http://www.lafruitera.com/mobiturmix-send-sms.jpg)
 
-![](http://www.lafruitera.com/ng2-daterange-picker.gif)
+![](http://www.lafruitera.com/mobiturmix-metadata.jpg)
 
