@@ -1,0 +1,4 @@
+<embed src="player/flvplayer.swf" bgcolor="#FFFFFF" allowfullscreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="file=http://ash-v1.ash.youtube.com/get_video%3Fvideo_id%3DNfBUCayjNvI&amp;showdigits=true&amp;autostart=true&amp;showfsbutton=false&amp;enablejs=true&amp;type=flv" height="295" width="400">
+
+
+http://www.jeroenwijering.com/?item=Flash_video_Player

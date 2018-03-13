@@ -1,0 +1,84 @@
+/* STATS */
+
+td.t1, tr.t1, table.t1, div.t1 { text-align: left; font-weight: bold; font-style: italic }
+td.t2, tr.t2, table.t2, div.t2 { text-align: left; font-style: normal }
+td.t3, tr.t3, table.t3, div.t3 { text-align: right }
+td.t4, tr.t4, table.t4, div.t4 { text-align: center }
+td.t5, tr.t5, table.t5, div.t5 { text-align: left; font-style: italic }
+td.t6, tr.t6, table.t6, div.t6 { font-family: "Tahoma", "Small Fonts", "Arial Narrow", sans-serif; font-size: 7pt !important; font-weight: normal !important; text-align: right; font-style: normal; white-space: nowrap; }
+
+.s1, .s1 td { font-family: "Tahoma", "Small Fonts", "Arial Narrow", sans-serif; font-size: 7pt !important; font-weight: normal !important; vertical-align: bottom; text-align: center  }
+.s2, .s2 td { font-family: "Tahoma", "Small Fonts", "Arial Narrow", sans-serif; font-size: 7pt !important; font-weight: normal !important; vertical-align: bottom; text-align: center; border: 0px }
+.s3, .s3 td { font-family: "Tahoma", "Small Fonts", "Arial Narrow", sans-serif; font-size: 7pt !important; font-weight: normal !important; vertical-align: bottom; text-align: center }
+.s4, .s4 td { text-align: left }
+.s5, .s5 td { text-align: left; border:0px }
+.toc { font-size: 16px; font-weight: bold; margin: 2px }
+.ra { font-size: 32px; text-align: center; border-width: 4px; padding-right: 10px; font-style: normal; }
+.rn { font-size: 16px; text-align: left; font-weight: bold; font-style: normal; }
+.ad { font-size: 10px; vertical-align: middle; text-align: center }
+.am { vertical-align: top }
+.cr { border-style: outset; border-width: 2px; font-size: 12px; vertical-align: middle; text-align: left }
+.v1 {  }
+.v2 {  }
+.v3 {  }
+.v4 {  }
+.v5 {  }
+.v6 {  }
+.v7 {  }
+.v8 {  }
+
+.statsbignums td {
+    text-align: left;
+}
+
+.t2 .v4 {
+    white-space: nowrap;
+}
+
+table.compactstats, table.compactstats2 {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+table.compactstats img, table.compactstats2 img {
+    border-spacing: 0;
+    border: 0;
+    padding-left: 0;
+    padding-right: 1px;
+    margin: 0;
+}
+
+table.compactstats .s1, table.compactstats2 .s1, table.compactstats .s2, table.compactstats2 .s2, table.compactstats .tgr, table.compactstats2 .tgr {
+    border-spacing: 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.bottomrow .t5 {
+    background: transparent !important;
+}
+
+.toprow {
+	background-color: rgb(71,71,118);
+	color: white;
+    font-weight: bold;
+	padding: 3px 5px 3px 4px;
+}
+.bottomrow0 {
+	background-color: rgb(210,210,210);
+}
+.bottomrow1 {
+	background-color: rgb(186,205,224);
+}
+.bottomrow2 {
+	/*background-color: rgb(186,205,224);*/
+	background-color: rgb(157,181,209);
+	/*background-color: rgb(197,221,249);*/
+}
+.bottomrow, .bottomrow2 {
+	padding: 3px 4px;
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="author" content="MobiTurmix - http://www.mobiturmix.com">
+<meta name="copyright" content="(c)2007 MobiTurmix">
+<meta name="description" content="MobiTurmix es divertido! Sube tus fotos, MobiTurmix te las envía al móvil al instante!  Entra en nuestra FotoTeca y comparte tus fotos con todo el mundo! " lang="es">
+<meta name="description" content="MobiTurmix is funny! Upload your fotos, MobiTurmix will send it to your mobile at the moment! Enter to our FotoTeca and share your fotos with everybody!" lang="en">
+<meta name="keywords" content="mobiturmix, mobiturmix.com, www.mobiturmix.com, móvil, descargar, contenido, multimedia, foto, vídeo, audio, animación, comunidad, turmix, wap" lang="es">
+<meta name="keywords" content="mobiturmix, mobiturmix.com, www.mobiturmix.com, phone, handset, download, content, multimedia, photo, video, audio, animation, comunity, turmix, wap" lang="en">
+<meta name="ROBOTS" content="INDEX, NOFOLLOW"><title>MobiTurmix - Tus fotos en tu móvil</title>
+
+	<link rel="shortcut icon" href="http://photo.mobiturmix.com/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="ft.php_archivos/template.css">
+	<link rel="stylesheet" type="text/css" href="ft.php_archivos/color.css">
+
+  <style type="text/css">
+  /*<![CDATA[*/
+#scat a:link, a:visited
+{
+   text-decoration: none;
+   font-family: Geneva, Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   font-weight: bold;
+   color: #8c8c8c;
+}
+
+#cat
+{
+   font-family: Geneva, Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   font-weight: bold;
+   color: #2ab2ff;
+}
+
+#cat a:link, a:visited
+{
+   text-decoration: none;
+   color: #2ab2ff;
+}
+
+#foot {
+    min-width: 0px;
+    padding: 0px;
+//    margin: 30px 10px 10px -5px;
+    font-size: 9px;
+    line-height: 11px;
+    color: #aaa !important;
+}
+
+#foot a {
+    color: inherit !important;
+    text-decoration: none;
+}
+
+#foot a:hover {
+    color: #555 !important;
+    text-decoration: none;
+}
+
+   td.photo {
+	background: url(u_photo6.gif);
+	cursor: pointer;
+	cursor: pointer;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+}
+   td.video { background: url(u_video.gif); cursor: hand; cursor: pointer;}
+   td.audio { background: url(u_audio.gif); cursor: hand; cursor: pointer;}
+   td.anima { background: url(u_anima3.gif); cursor: hand; cursor: pointer;}
+  /*]]>*/
+  </style><link href="ft.php_archivos/highlighter.css" type="text/css" rel="stylesheet">
+  <style type="text/css">
+<!--
+.Estilo5 {font-family: Geneva, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px;}
+.Estilo5 a:link, a:visited{text-decoration:none;}
+.Estilo9 {text-decoration:none; font-family: Geneva, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px; color: #2ab2ff; }
+.Estilo9 a:link, a:visited{text-decoration:none; font-family: Geneva, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px; color: #FF0033; }
+.Estilo11 {font-family: Geneva, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px; color: #8c8c8c; }
+.Estilo11 a:link, a:visited{text-decoration:none; font-family: Geneva, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px; color: #8c8c8c; }
+.Estilo13 {color: #8c8c8c}
+-->
+  </style>
+  </head><body style="margin: 0px; background-color: rgb(255, 255, 255);">
+<script type="text/javascript">
+//<![CDATA[
+function URLEncode(plaintext)
+{
+        // The Javascript escape and unescape functions do not correspond
+        // with what browsers actually do...
+        var SAFECHARS = "0123456789" +                                  // Numeric
+                                        "ABCDEFGHIJKLMNOPQRSTUVWXYZ" +  // Alphabetic
+                                        "abcdefghijklmnopqrstuvwxyz" +
+                                        "-_.!~*'()";                                    // RFC2396 Mark characters
+        var HEX = "0123456789ABCDEF";
+        var encoded = "";
+        for (var i = 0; i < plaintext.length; i++ ) {
+                var ch = plaintext.charAt(i);
+            if (ch == " ") {
+                    encoded += "+";                             // x-www-urlencoded, rather than %20
+                } else if (SAFECHARS.indexOf(ch) != -1) {
+                    encoded += ch;
+                } else {
+                    var charCode = ch.charCodeAt(0);
+                        if (charCode > 255) {
+                            alert( "Unicode Character '"
+                        + ch
+                        + "' cannot be encoded using standard URL encoding.\n" +
+                                          "(URL encoding only supports 8-bit characters.)\n" +
+                                                  "A space (+) will be substituted." );
+                                encoded += "+";
+                        } else {
+                                encoded += "%";
+                                encoded += HEX.charAt((charCode >> 4) & 0xF);
+                                encoded += HEX.charAt(charCode & 0xF);
+                        }
+                }
+        }
+        return encoded;
+}
+
+function gebi(id) { return document.getElementById(id); }
+function show(id,b)
+{
+  e=gebi(id);
+  e.style.display=b;
+}
+function s(id)
+{
+  e=gebi('none');
+  e.style.display='none';
+  e.style.visibility='hidden';
+  e=gebi(id);
+  e.style.visibility='visible';
+  e.style.display='block';
+}
+function h(id)
+{
+  e=gebi(id);
+  e.style.visibility='hidden';
+  e.style.display='none';
+  e=gebi('none');
+  e.style.visibility='visible';
+  e.style.display='block';
+}
+//]]>
+</script>
+<table align="center" border="0" height="80" width="903">
+  <tbody><tr>
+    <td align="center" valign="middle" width="300">
+    				<div id="handset">
+						<img class="handset_img" alt="" src="ft.php_archivos/uh.png">
+					<span class="handset_text_big">
+						<a href="http://photo.mobiturmix.com/ft.php?imh=0">Elije tu móvil</a></span>
+					<span class="handset_text_small">Te mostramos como quedan las<br>fotos en tu móvil
+					</span>
+				</div>
+    </td>
+    <td height="70" width="247"></td>
+    <td align="right" width="358"><a href="http://www.mobiturmix.com/"><img src="ft.php_archivos/logo.gif" border="0"></a></td>
+  </tr>
+</tbody></table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="905">
+  <tbody><tr background="ft.php_archivos/u_audio.gif">
+    <td colspan="8" align="left"><img src="ft.php_archivos/u_top.gif" height="11" width="905"></td>
+  </tr>
+  <tr align="left" valign="top">
+    <td background="ft.php_archivos/a0.gif" width="105"></td>
+    <td class="photo" onmouseover="show('pho','block');" onmouseout="show('pho','none');" onclick="document.location.href='http://photo.mobiturmix.com';" height="34" width="150"><img style="display: none;" id="pho" src="ft.php_archivos/r_photo6.gif"></td>
+    <td class="video" onmouseover="show('vid','block');" onmouseout="show('vid','none');" onclick="document.location.href='http://video.mobiturmix.com';" height="34" width="117"><img style="display: none;" id="vid" src="ft.php_archivos/r_video.gif"></td>
+    <td class="audio" onmouseover="show('aud','block');" onmouseout="show('aud','none');" onclick="document.location.href='http://audio.mobiturmix.com';" height="34" width="118"><img style="display: none;" id="aud" src="ft.php_archivos/r_audio.gif"></td>
+    <td class="anima" onmouseover="show('ani','block');" onmouseout="show('ani','none');" onclick="document.location.href='http://anima.mobiturmix.com';" height="34" width="153"><img style="display: none;" id="ani" src="ft.php_archivos/r_anima3.gif"></td>
+    <td background="ft.php_archivos/a1.gif" width="43"></td>
+    <td background="ft.php_archivos/cerca.gif" valign="middle" width="141"><input id="search" size="17" maxlength="40" value="keen" type="text"></td>
+    <td width="78"><img style="cursor: pointer;" alt="Buscar fotos" title="Buscar fotos" src="ft.php_archivos/bcerca.gif" onclick="c=gebi('search'); window.location='ft.php?ih=&s='+URLEncode(c.value);" height="34"><img src="ft.php_archivos/a2.gif" height="34" width="41"></td>
+  </tr>
+</tbody></table>
+  
+  
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="905">
+  <tbody><tr>
+    <td rowspan="14" align="left" valign="top" width="105"><img src="ft.php_archivos/a3.gif"></td>
+    <td align="center" height="50" valign="bottom" width="170"><!--<img src="a4.gif" width="135" height="15" />--></td>
+    <td colspan="3" rowspan="14" align="right" height="490" valign="top" width="631">
+<iframe src="ft.php_archivos/ftc.htm" name="m" id="m" frameborder="0" height="800" width="625">Sorry, your browser doesn't support iframes.</iframe>
+    </td>
+  </tr>
+  <tr>
+    <td align="left" height="30" valign="top"><span class="cat" style="color: rgb(42, 178, 255);"><a href="http://photo.mobiturmix.com/ftc.php?c=0" target="m"><img src="ft.php_archivos/ba.gif"></a></span><a href="d dfdgfdg" class="Estilo9"> los <span class="Estilo13">+</span> recientes</a></td>
+    </tr>
+  <tr>
+    <td align="left" height="30" valign="top"><span class="cat" style="color: rgb(42, 178, 255);"><img src="ft.php_archivos/ba.gif"> </span><span class="Estilo5" style="color: rgb(42, 178, 255);">categorías</span></td>
+    </tr>
+  <tr>
+    <td align="left" height="30" valign="bottom"><span class="scat"><a href="http://photo.mobiturmix.com/ftc.php?c=1" target="m"><img src="ample.gif" width="36" height="1" /><span class="Estilo11">amor</span></a></span></td>
+    </tr>
+  <tr>
+    <td align="center" height="30" valign="bottom"><a href="http://photo.mobiturmix.com/ftc.php?c=2" target="m"><img src="ft.php_archivos/a7.gif" border="0" height="15" width="135"></a></td>
+    </tr>
+  <tr>
+    <td align="center" height="30" valign="bottom"><a href="http://photo.mobiturmix.com/ftc.php?c=3" target="m"><img src="ft.php_archivos/a9.gif" border="0" height="15" width="135"></a></td>
+    </tr>
+  <tr>
+    <td align="center" height="30" valign="bottom"><a href="http://photo.mobiturmix.com/ftc.php?c=4" target="m"><img src="ft.php_archivos/a10.gif" border="0" height="15" width="135"></a></td>
+    </tr>
+  <tr>
+    <td align="center" height="0" valign="bottom"></td>
+    </tr>
+  <tr>
+    <td align="center" height="30" valign="bottom"><a href="http://photo.mobiturmix.com/ftc.php?c=5" target="m"><img src="ft.php_archivos/a11.gif" border="0" height="15" width="135"></a></td>
+    </tr>
+  <tr>
+    <td align="center" height="30" valign="bottom"><a href="http://photo.mobiturmix.com/ftc.php?c=6" target="m"><img src="ft.php_archivos/a12.gif" border="0" height="15" width="135"></a></td>
+    </tr>
+  <tr>
+    <td align="center" height="30" valign="bottom"><a href="http://photo.mobiturmix.com/ftc.php?c=7" target="m"><img src="ft.php_archivos/a13.gif" border="0" height="15" width="135"></a></td>
+    </tr>
+  <tr>
+    <td align="center" height="30" valign="bottom"><a href="http://photo.mobiturmix.com/ftc.php?c=8" target="m"><img src="ft.php_archivos/a14.gif" border="0" height="15" width="135"></a></td>
+    </tr>
+  <tr>
+    <td align="center" height="30" valign="bottom"><a href="http://photo.mobiturmix.com/ftc.php?c=9" target="m"><img src="ft.php_archivos/a15.gif" border="0" height="15" width="135"></a></td>
+    </tr>
+  <tr>
+    <td align="left" height="450" valign="top" width="170"><img src="ft.php_archivos/170.gif" width="170"></td>
+    </tr>
+  <tr>
+    <td colspan="6"><div style="width: 900px;"><span style="font-family: Geneva,Arial,Helvetica,sans-serif; font-size: 9px; color: rgb(153, 153, 153);"><b>(c) 2007 <a href="mailto:turmix@tinet.org">MobiTurmix</a></b>,
+todos los derechos reservados. Ninguna parte del site puede ser
+reproducida sin el permiso del propietario de los derechos de autor.
+Todos los servicios de <b>MobiTurmix</b> muestran las compatibilidades
+del contenido con tu dispositivo móvil o el que tu indiques. En caso de
+descarga por SMS el coste es de 1 solo SMS(1.2e+iva), tráfico GPRS no
+incluido.</span><span style="font-family: Geneva,Arial,Helvetica,sans-serif; font-size: 9px; color: rgb(0, 0, 0);"> Las descargas vía WAP son 100% gratis!</span></div></td>
+  </tr>
+</tbody></table>
+<script src="ft.php_archivos/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1595535-2";
+urchinTracker();
+</script>
+</body></html>

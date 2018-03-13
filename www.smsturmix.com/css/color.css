@@ -1,0 +1,370 @@
+/* Color - Blue (RTP) */
+/* Search for "Modify" to check the elements that have to be modified */
+
+body {
+	color:#333;
+	}
+	
+a {
+	color:#339; /* Modify */
+	}
+	
+a:hover {
+	color:#39C; /* Modify */
+	}
+
+/* ---------- Wrap ---------- */
+
+.wrap {
+	/*background:#FFF;*/
+	}
+
+/* ---------- Header area ---------- */
+
+#logo {
+	background:url(../img/rtp_logo.gif) no-repeat; /* Modify */
+	width:250px;
+	}
+
+#header {
+	background:#0046AF url(../img/rtp_header_banner.jpg) repeat-x top; /* Modify */
+	color:#FFFFFF;
+	}
+	
+.links a {
+	color:#E5E5E5;
+	}
+
+.links a:hover {
+	color:#FFF;
+	}
+	
+.header_outside {
+	background:#0046AF url(../img/rtp_header_bg.png) repeat-x top; /* Modify */
+	}	
+
+/* Handsect selector and search */
+
+#handset {
+//	border-color:#C0EFC0 #016001 #016001 #C0EFC0; /* Modify */
+	}
+
+#handset,
+#handset_select {
+        background:#FFFFFF url(http://www.smsturmix.com/hbg.png) repeat-x; /* Modify */
+        }
+	
+#handset a {
+	color:#FFF;
+	}
+	
+#handset a:hover {
+	color:#FFFF66;
+	}
+
+.handset_img {
+	border-color:#999999 #D6D6D6 #D6D6D6 #999999;
+	}
+
+.handset_text_big {
+	color:#FFF;
+	}
+	
+.handset_text_small {
+	color:#99FF99;
+	}
+
+/*#search {
+	background:#0046AF url(../img/rtp_search_bg.png) repeat-x; /* Modify */
+	border-color:#BFD1EB #002358 #002358 #BFD1EB; /* Modify */
+	}*/
+
+/* Menu and help */
+
+#menu li {
+	border-right:#BBB 1px solid;
+	}
+
+#menu li.first {
+	border-left:#BBB 1px solid;
+	}
+	
+#menu #help {
+	border:none;
+	}
+
+#current {
+	background:#FFF;
+	border-left:#BBB 1px solid;	
+	color:#000000;
+	}
+	
+#current a {
+	color:#666;
+	}
+
+#current a:hover {
+	color:#333;
+	}
+
+/* ---------- Body ---------- */
+
+/* Contents */
+
+.contents_outside {
+	background:#E5E5E5 url(../img/bg_grey.png) repeat-x bottom;
+	}
+	
+.contents_border {
+	background:#FFF;
+	}
+	
+/* Section Titles */
+
+h2 {
+	border-bottom:#CCC 1px solid;
+	color:#339; /* Modify */
+	}
+	
+/* ---------- Containers ---------- */
+
+.color1 {
+	background:#0046AF url(../img/rtp_container_bg.png) repeat-x; /* Modify */
+	}
+
+.color2 {
+	background:#E6E6E6 url(../img/container_bg_grey.png) repeat-x;
+	}
+	
+.container_title {
+	/* Optional Container Title background color */
+	}
+
+h4 {
+	color:#FFF;
+	}
+
+/* Container : Links to categories */
+
+.container_cat {
+	background:url(../img/container_cat_bg.png) repeat-y;
+	background-color:#FFF;
+	color:#333; /* Modify */
+	}
+	
+.container_cat_btn {
+	border-color:#BFEDFF #005C80 #005C80 #BFEDFF; /* Modify */
+	}
+	
+.container_cat_btn a {
+	background:#00A5FF url(../img/rtp_container_cat_btn.png) repeat-x top left; /* Modify */
+	color:#FFF;
+	}
+	
+.container_cat_btn a:hover {
+	background:#00B7FF url(../img/rtp_container_cat_btn.png) repeat-x top right; /* Modify */
+	color:#FFF;
+	}
+	
+/* Container : Previews Thumbnails */
+
+.previews_thumb.images img {
+	border:#FFF 2px solid;
+	}
+	
+.previews_thumb.videos img {
+	border:#000 2px solid ;
+	}
+	
+.previews_thumb.games img {
+	border:#FF9 2px solid ;
+	}
+
+.previews_thumb.animations img {
+	border:#FF9 2px solid ;
+	}
+
+/* Container : Previews Music */
+	
+.previews_music td {
+	border-bottom:#999 1px solid;
+	background:#FFF;
+	}
+	
+.previews_music tr.alt td {
+	background:#ECECEC;
+	}
+	
+.previews_music tr td.nobg {
+	background:none;
+	border:none;
+	}
+	
+/* Container : Left column Categories */
+
+#container_catlist {
+	background:#0046AF url(../img/rtp_container_bg.png) repeat-x; /* Modify */
+	}
+	
+/* Container : Pager */
+
+#pager {
+	background-color:#E6E6E6; /* Modify ??? */
+	}
+	
+#pager select {
+	border-color:#999 #CCC #CCC #999;
+	}
+	
+/* ---------- Compatible mobile phones ---------- */
+
+.step {
+	color:#339; /* Modify */
+	}
+
+#brands td,
+#handsets td {
+	border-bottom:#DDD 1px solid;
+	}
+
+#brands img,
+#handsets img {
+	border:#FFF 1px solid;
+	}
+	
+#brands a:hover img,
+#handsets a:hover img {
+	border:#39C 1px solid; /* Modify */
+	}
+	
+/* ---------- Handset selected ---------- */
+
+#handset_select {
+	color:#FFF;
+	}
+
+/* ---------- Error message ---------- */
+
+#error {
+	color:#F00;
+	background-color:#FF9;
+	}
+	
+/* ---------- Download ---------- */
+
+#download .instructions {
+	background:#0046AF url(../img/rtp_container_bg.png) repeat-x; /* Modify */
+	color:#FFFFFF;
+	}
+	
+#download .content {
+	border:#FFF 3px solid;
+	}
+	
+#download .instr_steps {
+	background:#EEE;
+	color:#333;
+	}
+	
+#download .instr_code,
+#download .instr_number {
+	color:#339; /* Modify */
+	}
+	
+#download .price {
+	background:#EEE;
+	color:#333;
+	}
+
+#container_catlist ul li a {
+	color:#FFF;
+	border-bottom:#CCC 1px solid;
+	}
+
+#container_catlist ul li a:hover {
+	background:#E5E5E5;
+	color:#000;
+	}
+
+#container_catlist .active a {
+	background:#FFF;
+	color:#000;
+	}
+
+/* ---------- Foot ---------- */
+
+#foot {
+	border-top:#CCC 1px solid;
+	color:#CCC;
+	}
+	
+#foot a {
+	color:#CCC;
+	}
+	
+#foot a:hover {
+	color:#FFF;
+	}
+
+/* ---------- Ninos ---------- */
+
+/* Comment the 'Backgroud' declaration to hide the drawings */
+
+.nino_menu_help {
+	background:url(../img/nino_help.gif) no-repeat bottom left;
+	float:left;
+	height:26px;
+	width:18px;
+	}
+	
+.nino_menu_contact {
+	background:url(../img/nino_contact.gif) no-repeat bottom left;
+	float:left;
+	height:26px;
+	width:22px;	
+	}
+	
+.nino_handset {
+	background:url(../img/nino_handset.gif) no-repeat top left;
+	}
+	
+.nino_search {
+	background:url(../img/nino_search.gif) no-repeat top left;
+	}
+	
+.nino_truetones {
+	background:url(../img/nino_truetones.gif) no-repeat bottom right;	
+	}
+	
+.nino_polyphonics {
+	background:url(../img/nino_polyphonics.gif) no-repeat bottom right;	
+	}
+	
+.nino_videos {
+	background:url(../img/nino_videos.gif) no-repeat bottom right;	
+	}
+	
+.nino_games {
+	background:url(../img/nino_games.gif) no-repeat bottom right;	
+	}
+	
+.nino_images {
+	background:url(../img/nino_images.gif) no-repeat bottom right;	
+	}
+	
+.nino_themes {
+	background:url(../img/nino_themes.gif) no-repeat bottom right;	
+	}
+
+.nino_animations {
+	background:url(../img/nino_animations.gif) no-repeat bottom right;	
+	}
+
+.nino_download {
+	background:url(../img/nino_download.gif) no-repeat top left;
+	}
+	
+.nino_error {
+	background:url(../img/nino_error.gif) no-repeat top left;
+	background-position:10px 5px
+	}

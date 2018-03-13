@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>photo.turmix :: Tus fotos, en tu móvil!</title>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="author" content="GirafaTools - http://www.girafatools.com" />
+	<meta name="copyright" content="GirafaTools 2006-2007" />
+	<meta name="description" lang="es" content="SmsTurmix te permite poner en tu móvil tus contenidos multimédia y compartirlos con la comunidad Turmix." />
+	<meta name="description" lang="en" content="SmsTurmix allows to you to put your own multimedia content to your hand phone and share it with the Turmix comunity." />
+	<meta name="description" lang="cat" content="SmsTurmix et permet posar al teu móvil els teus continguts multimédia i compartir-los amb la comunitat Turmix." />
+	<meta name="keywords" lang="es" content="smsturmix teléfono móvil multimédia foto video audio animacion jpg gif 3gp mp4 mp3 sms wap" />
+	<meta name="keywords" lang="en" content="smsturmix hand phone handset multimedia photo video audio animation jpg gif 3gp mp4 mp3 sms wap" />
+	<meta name="keywords" lang="cat" content="smsturmix telefon mòbil multimèdia foto vídeo audio animació jpg gif 3gp mp4 mp3 sms wap" />
+	<link rel="shortcut icon" href="favicon.ico" />
+
+  <style type="text/css">
+  /*<![CDATA[*/
+   td.photo {
+	background: url(u_photo5.gif);
+	cursor: pointer;
+	cursor: pointer;
+	vertical-align: middle;
+}
+   td.video { background: url(u_video.gif); cursor: hand; cursor: pointer;}
+   td.audio { background: url(u_audio.gif); cursor: hand; cursor: pointer;}
+   td.anima { background: url(u_anima5.gif); cursor: hand; cursor: pointer;}
+.Estilo4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+}
+  </style>
+</head>
+
+<body>
+<script type="text/javascript">
+//<![CDATA[
+function gebi(id) { return document.getElementById(id); }
+function show(id,b)
+{
+  e=gebi(id);
+  e.style.display=b;
+}
+function s(id)
+{
+  e=gebi('none');
+  e.style.display='none';
+  e.style.visibility='hidden';
+  e=gebi(id);
+  e.style.visibility='visible';
+  e.style.display='block';
+}
+function h(id)
+{
+  e=gebi(id);
+  e.style.visibility='hidden';
+  e.style.display='none';
+  e=gebi('none');
+  e.style.visibility='visible';
+  e.style.display='block';
+}
+//]]>
+</script>
+<table width="903" height="80" border="0" align="center">
+  <tr>
+    <td width="106" align="center" valign="middle"><img src="arrows.gif" id="arr" style="display:none;" /></td>
+    <td width="427" height="70"><img style="display:none;" id="mup" src="m_sube.gif" /><img style="display:none;" id="mfot" src="m_fototeca.gif" /></td>
+    <td width="358" align="right"><a href="http://www.smsturmix.com"><img src="logo.gif" border="0"/></a></td>
+  </tr>
+</table>
+<table width="905" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr background="u_audio.gif">
+    <td colspan="8" align="left"><img src="u_top.gif" width="905" height="11" /></td>
+  </tr>
+  <tr align="left" valign="top">
+    <td width="105" background="e0.gif"></td>
+    <td width="150" height="34" class="photo" onMouseOver="show('pho','block');" onMouseOut="show('pho','none');"><img style="display:none" id="pho" src="r_photo5.gif"/></td>
+    <td width="117" height="34" class="video" onMouseOver="show('vid','block');" onMouseOut="show('vid','none');"><img style="display:none" id="vid" src="r_video.gif"/></td>
+    <td width="118" height="34" class="audio" onMouseOver="show('aud','block');" onMouseOut="show('aud','none');"><img style="display:none" id="aud" src="r_audio.gif"/></td>
+    <td width="153" height="34" class="anima" onMouseOver="show('ani','block');" onMouseOut="show('ani','none');"><img style="display:none" id="ani" src="r_anima5.gif"/></td>
+    <td width="43" background="e1.gif"></td>
+    <td width="141" valign="middle" background="cerca.gif"><input name="textfield" type="text" dir="ltr" lang="es" size="17" maxlength="40" /></td>
+    <td width="78"><img style="cursor:pointer;cursor:hand;" alt="Buscar fotos" title="Buscar fotos" src="bcerca.gif" height="34" /><img src="e2.gif" width="41" height="34" /></td>
+  </tr>
+</table>
+  
+  
+  <table width="905" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="166" colspan="2" background="e3.gif"></td>
+  </tr>
+  <tr>
+    <td width="623" height="53" background="e4.gif"></td>
+    <td width="283" background="e6.gif"><span class="Estilo4">&nbsp;fbjkg</span></td>
+  </tr>
+  <tr>
+    <td height="88" colspan="2" background="e7.gif"></td>
+  </tr>
+  <tr>
+    <td height="36" colspan="2" align="right" background="e8.gif"><input type="text" name="textfield2" style="width:260px"/>&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="11" colspan="2" background="e9.gif"></td>
+  </tr>
+  <tr>
+    <td height="44" colspan="2"><img src="e10.gif" width="830" height="44" /><img style="cursor:pointer;cursor:hand;" alt="Finalizar" title="Finalizar" src="e11.gif" width="44" height="44" /><img src="e12.gif" width="31" height="44" /></td>
+  </tr>
+  <tr>
+    <td height="110" colspan="2" background="e13.gif"></td>
+  </tr>
+  <tr>
+    <td colspan="4"><img src="p_foot.gif" width="882" height="25" /></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,501 @@
+/* new footer */
+
+/* -- Basic HTML Elements -- */
+
+body {margin:0px 0px; padding:0px; text-align:center; background-color: #CFCFCA; font-size: 62.5%; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+input, select, th, td {font: 1.0em Verdana, Arial, Helvetica, sans-serif;}
+
+p {padding: 0; margin: 0 0 15px 0; font-size: 1em;}
+
+img {border: 0;}
+
+a:link {text-decoration: none; color: #0066CC;}
+a:visited {text-decoration: none; color: #0066CC;}
+a:hover {text-decoration: underline; color: #FF6013;}
+a:active {text-decoration: none; color: #FFA100;}
+
+h1 {font: 1.6em Georgia, Times New Roman, Helvetica, serif; color: #000000; padding: 8px 0 3px 0; margin: 0;}
+h2 {font-size: 1.4em; color: #FFA100; padding: 0 0 9px 0; margin: 0;}
+h3 {font-size: 1.3em; padding: 8px 0 6px 0; margin: 0;}
+h4 {font-size: 1.2em; color: #FFA100; padding: 8px 0 4px 0; margin: 0;}
+h5 {font-size: 1.1em; color: #FFA100; padding: 10px 0 2px 0; margin: 0;}
+h6 {font-size: 1.0em; color: #FFA100; padding: 0; margin: 0;}
+
+/* -- Global Layout Styles -- */
+#bodywrapper {width: 100%;  padding: 7px 0px 0 0px; margin:0px auto; text-align:left; position: absolute; left: 0px; top: 0px; z-index: 0;}
+.pagewrapper, .mtx_btm {width: 955px; padding: 0 0px; background: url(../smsturmix.com/images/pagewrapper_bg.gif) repeat-y; position: relative;}
+#contentwrapper {float: left; width: 764px;}
+
+#layout-1 {width: 955px; background-image: url(../smsturmix.com/images/layout_1column.gif); position: relative;}
+#layout-2 {width: 955px; background-image: url(../smsturmix.com/images/layout_2column.gif); position: relative;}
+#layout-3 {width: 955px; background-image: url(../smsturmix.com/images/layout_home.gif); position: relative;}
+#layout-4 {width: 955px; background-image: url(../smsturmix.com/images/layout_3column.gif); position: relative;}
+
+/* -- Top and Bottom Nav Bars -- */
+#navbar-top {height: 34px; background: url(../smsturmix.com/images/navbar_bg_top.gif) repeat-x;}
+#navbar-bottom {height: 41px; background: url(../smsturmix.com/images/navbar_bg_bottom.gif) repeat-x;}
+
+#navbar-top #techsites {float: left; width: 464px; height: 22px; padding: 12px 0 0 21px; background: url(../smsturmix.com/images/navbar_corner_tl.gif) no-repeat left top; color: #FFF;}
+#navbar-top #techsites a {color: #FFF;}
+
+#navbar-top #login {float: right; width: 464px; height: 22px; padding: 10px 21px 2px 0; background: url(../smsturmix.com/images/navbar_corner_tr.gif) no-repeat right top; text-align: right; color: #FFF;}
+#navbar-top #login a {color: #FFF;}
+#navbar-top #login .input_field-email {margin: 0 2px 0 2px; padding: 1px 0 1px 4px; height: 1.3em; width: 13em; border: 1px solid #2E2E2C; background-color: #CFCFCA;color: #000000;}
+#navbar-top #login .input_field-pass {margin: 0 2px 0 2px; padding: 1px 0 1px 4px; height: 1.3em; width: 5em; border: 1px solid #2E2E2C; background-color: #CFCFCA;color: #000000;}
+#navbar-top #login .button {margin: 0 15px -2px 3px;}
+
+#navbar-bottom #sectionlinks {float: left; width: 387px; height: 36px; padding: 5px 0 0 23px; background: url(../smsturmix.com/images/navbar_corner_bl.gif) no-repeat left top; color: #FFF;}
+#navbar-bottom #sectionlinks img {margin-right: 10px;}
+#navbar-bottom #sectionlinks a {color: #FFF;}
+#navbar-bottom #sectionlinks .backtotop {display: inline; float: left; padding: 3px 7px 0 0; }
+
+#navbar-bottom #aboutus {float: right; width: 530px; height: 34px; padding: 7px 23px 0 0; background: url(../smsturmix.com/images/navbar_corner_br.gif) no-repeat right top; text-align: right; color: #FFF;}
+#navbar-bottom #aboutus a {color: #FFF;}
+#navbar-bottom #aboutus .icon {margin-bottom: -3px;}
+
+/* -- Redball Header and Footer -- */
+.clear {clear:both;}
+
+#hd_shell {margin-left:15px; background:url('../smsturmix.com/images/redball_dl.gif') no-repeat; *width:100%;}
+.mtx_srch2wrapper {width: 955px; padding: 0 8px; background: url(../smsturmix.com/images/pagewrapper_bg_srch.gif) repeat-y; position: relative;}
+
+/* yellow tabs */
+.hd_tabs {margin-left:20px;text-align:center;font:bold 12px arial,helvetica;}
+.hd_tabs ul#t {height: 42px; list-style-type: none; margin:0; padding:0;}
+.hd_tabs .tab {background: url('../smsturmix.com/images/tab-off.png') no-repeat; width: 120px; position: absolute; margin-top:62px; height:auto;}
+.hd_tabs .tab a {text-align:center; display: block; padding:20px 27px 0px; line-height: 99%; height: 22px; color:#000;}
+.hd_tabs .tab a:hover, .hd_tabs .tab a:visited {color:#000;}
+.hd_tabs .tab a.l2 {padding-top: 14px; padding-bottom:4px;}
+.hd_tabs #t1 {margin-left:0px;z-index:6;}
+.hd_tabs #t2 {margin-left:100px;z-index:5;}
+.hd_tabs #t3 {margin-left:200px;z-index:4;}
+.hd_tabs #t4 {margin-left:300px;z-index:3;}
+.hd_tabs #t5 {margin-left:400px;z-index:2;}
+.hd_tabs #t6 {margin-left:500px;z-index:1;}
+.hd_tabs #t7 {margin-left:600px;z-index:0;}
+
+.hd_tabs .on {
+	background-image: url('../smsturmix.com/images/tab-on.png');
+	z-index: 6 !important;
+}
+
+* html .hd_tabs .tab {
+	xfilter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../smsturmix.com/images/tab-off.png',sizingMethod='crop');
+	background-image: url('../smsturmix.com/images/tab-off.png');
+}
+* html .hd_tabs .on {
+	xfilter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../smsturmix.com/images/tab-on.png',sizingMethod='crop');
+	background-image: url('../smsturmix.com/images/tab-on.png');
+}
+.hd_tabs .tab a:link, .hd_tabs .tab a:hover, .hd_tabs .tab a:visited, .hd_tabs .on a:active {color:#976D01;}
+.hd_tabs .on a:link, .hd_tabs .on a:hover, .hd_tabs .on a:visited, .hd_tabs .on a:active {color: #fff;}
+
+/* logo */
+.hd_gif_links {position:absolute; height:60px; margin-top:3px; margin-left:45px;}
+.mtx_rb_gif {display:inline; margin-top:10px; width:70px; height:60px;}
+.mtx_tag_gif {display:inline; margin-top:0; width:250px; height:60px;}
+.hd_tag {}
+
+/* urs */
+.hd_unilogin {float:right;height:50px; padding:10px 23px 0 0;}
+.mtx_uni_bg {background:#FCDF6A;padding:5px 8px;margin-bottom:3px;}
+.hd_unilogin a {font:normal 10px verdana,geneva,hevetica;text-decoration:none;}
+.hd_unilogin a:hover {text-decoration:underline;}
+.hd_unilogin a:link, .hd_unilogin a:hover, .hd_unilogin a:visited, .hd_unilogin a:active  {color:#000;}
+#uloginForm {width:350px;}
+.unilog_txt_em, .unilog_txt_pw, .mtx_unilog_txtbox_em, .mtx_unilog_txtbox_pw {float: left;}
+.unilog_txt_em, .unilog_txt_pw {padding:2px 5px 0 0;}
+.mtx_unilog_txtbox_em {margin-right:5px;}
+.mtx_unilog_txtbox_pw {margin-right:8px;}
+#uloginOut, .unilog_save {text-align:right;}
+.unilog_pword {padding: 0 8px;}
+
+/* download nav green bar */
+.mtx_hbar, .mtx_hbar_btm {background:#005100; padding:0px 0px 0px 0px; height:0px;}
+.mtx_hbar {background:url('../smsturmix.com/images/pagewrapper_bg_nav.gif') repeat-y; padding: 3px 8px; width: 955px; margin-top:60px; *width:100%; position:relative;}
+.mtx_hbar_btm {background:#0E2B00; *height:10px;}
+.mtx_nav {margin-left:12px; font:bold 11px arial,helvetica;}
+.mtx_nav a {border-right:1px solid #728972; display:inline; margin-right:5px; padding-right:5px; padding-bottom:3px;}
+.mtx_nav a:link, .mtx_nav a:active, .mtx_nav a:visited {color:#FAFFF8; text-decoration:none;}
+.mtx_nav a:hover {color:#FAFFF8; text-decoration:underline;}
+.mtx_nav a:link.on, .mtx_nav a:active.on, .mtx_nav a:visited.on, .mtx_nav a:hover.on {color:#FC0;}
+.mtx_nav a.sw {background:url('../smsturmix.com/images/sw_icon_w.gif') no-repeat;padding-left:25px;}
+.mtx_nav a.music {background:url('../smsturmix.com/images/music_icon_w.gif') no-repeat;padding-left:25px;}
+.mtx_nav a.games {background:url('../smsturmix.com/images/games_icon_w.gif') no-repeat;padding-left:25px;}
+.mtx_nav a.vid {background:url('../smsturmix.com/images/video_icon_w.gif') no-repeat;padding-left:25px;}
+.mtx_nav a.sw.on {background:url('../smsturmix.com/images/sw_icon_y.gif') no-repeat;padding-left:25px;}
+.mtx_nav a.music.on {background:url('../smsturmix.com/images/music_icon_y.gif') no-repeat;padding-left:25px;}
+.mtx_nav a.games.on {background:url('../smsturmix.com/images/games_icon_y.gif') no-repeat;padding-left:25px;}
+.mtx_nav a.vid.on {background:url('../smsturmix.com/images/video_icon_y.gif') no-repeat;padding-left:25px;}
+/* fix for icon hover */
+.mtx_nav a#sw {background:url('../smsturmix.com/images/sw_icon_w.gif') no-repeat;padding-left:25px;}
+.mtx_nav a#music {background:url('../smsturmix.com/images/music_icon_w.gif') no-repeat;padding-left:25px;}
+.mtx_nav a#vid {background:url('../smsturmix.com/images/video_icon_w.gif') no-repeat;padding-left:25px;}
+.mtx_nav a#games {background:url('../smsturmix.com/images/games_icon_w.gif') no-repeat;padding-left:25px;}
+.mtx_nav a#sw.on {background:url('../smsturmix.com/images/sw_icon_y.gif') no-repeat;padding-left:25px;}
+.mtx_nav a#games.on {background:url('../smsturmix.com/images/games_icon_y.gif') no-repeat;padding-left:25px;}
+.mtx_nav a#music.on {background:url('../smsturmix.com/images/music_icon_y.gif') no-repeat;padding-left:25px;}
+.mtx_nav a#vid.on {background:url('../smsturmix.com/images/video_icon_y.gif') no-repeat;padding-left:25px;}
+
+/* search header */
+.mtx_srch2 {height:24px;background:#EEE;font:bold 14px arial,helvetica;vertical-align:middle;text-align:left;*width:100%;}
+.mtx_srch2 a.opt {font:normal 10px verdana,geneva,helvetica;padding-left:5px;}
+.mtx_srch2_pad {padding:1px 0;text-align:center;}
+.mtx_srch2_form {margin:0;padding:0;}
+.mtx_srch2_box {display:inline;font:normal 10px verdana,geneva,helvetica;margin:2px 5px;vertical-align:middle;line-height:18px;}
+.mtx_srch2_select {display:inline;font:bold 10px verdana,geneva,helvetica;margin:2px 5px 2px 0;vertical-align:middle;line-height:18px;}
+.mtx_srch2_select option {line-height:20px;}
+.mtx_srch2_go {font:bold 10px verdana,geneva,helvetica;height:18px;}
+.mtx_srch2 {background:url('../smsturmix.com/images/pagewrapper_bg_srch.gif') repeat-y;padding: 0 8px;width: 955px;position: relative;}
+.mtx_srch2 a, .mtx_srch2 a:hover, .mtx_srch2 a:visited {color:#00089C;}
+
+/* search footer */
+.mtx_bsrch_go {font:bold 10px verdana,geneva,helvetica;height:22px;}
+.mtx_bsrch_box {font:bold 12px arial,helvetica;margin:2px 5px 3px;vertical-align:middle;line-height:16px;float:left;display:inline;}
+.mtx_bsrch {background:#EEE;height:20px;}
+div.mtx_bsrch {padding:8px 8px 3px 8px;font:normal 10px verdana,geneva,helvetica;}
+.mtx_bsrch_r {float:right;margin-top:-4px;}
+.mtx_bsrch_l {display:block;text-align:left;}
+.mtx_bsrch_l a {border-right:1px solid #000;margin-right:5px;padding-right:6px;}
+div.mtx_bsrch {font:normal 10px verdana,geneva,helvetica;padding:8px 17px 3px 17px;}
+div.mtx_bsrch a, div.mtx_bsrch a:hover, div.mtx_bsrch a:visited {color:#000094;}
+
+/* header ad */
+.hd_tabs #search-ads {position:absolute; text-align:center; width: 295px; margin:40px 0 0 635px; font:normal 10px verdana,geneva,helvetica; color:#9C9AA5;}
+.hd_tabs #search-ads a:link, .hd_tabs #search-ads a:hover, .hd_tabs #search-ads a:visited, .hd_tabs #search-ads a:active {color:#00089C;text-decoration:underline;}
+.hd_tabs #search-ads a img.button {display:inline; padding:0 3px 0 0px; border-bottom: none; vertical-align:middle; *vertical-align:top;}
+.mtx_srch2 #search-ads {text-align:center; font:normal 2px verdana,geneva,helvetica;}
+.mtx_srch2 #search-ads a:link, .mtx_srch2 #search-ads a:hover, .mtx_srch2 #search-ads a:visited, .mtx_srch2 #search-ads a:active {color:#00089C;text-decoration:underline;}
+.mtx_srch2 #search-ads a img.button {display:inline; padding:0 3px 0 0px; border-bottom: none; vertical-align:middle; *vertical-align:top;}
+.mtx_srch2 #search-ads span.searchbar-text {font:normal 10px verdana,geneva,helvetica; color:#9C9AA5; background: url(http://i.d.com.com/i/dl/global/search_ad_arrow.gif) no-repeat; padding-left: 115px;vertical-align:middle;}
+.mtx_srch2 #search-ads img {display:none;}
+
+/* footer */
+.mtx_ft {background:#FC0;padding:8px 0;text-align:left;}
+.mtx_ft_redball {float:left;width:75px;height:80px;background:#FC0;}
+
+.mtx_ft_txt1 {font:normal 10px verdana,geneva,helvetica;color:#5F6774;margin-bottom:8px;}
+.mtx_ft_txt1 a {color:#5F6774;text-decoration:none;}
+.mtx_ft_txt1 a:hover {color:#5F6774;text-decoration:underline;}
+.mtx_ft_txt1 a:link, .mtx_ft_txt1 a:hover, .mtx_ft_txt1 a:visited, .mtx_ft_txt1 a:active {color:#5F6774;}
+
+.mtx_ft_txt2 {border-bottom:solid #5F6774;border-width:1px 0;color:#000;font:normal 10px verdana,geneva,helvetica;margin:0 0 8px 0;padding:8px 0;}
+.mtx_ft_txt2 a {color:#000;font:bold 12px arial,helvetica;}
+.mtx_ft_txt2 a:hover {color:#000;}
+.mtx_ft_txt2 a.copy {font:normal 10px verdana,geneva,helvetica; font-weight: bold;}
+.mtx_ft_txt2 a:link, .mtx_ft_txt2 a:hover, .mtx_ft_txt2 a:visited, .mtx_ft_txt2 a:active {color:#000;}
+
+/*-- /Redball Header and Footer -- */
+
+#quicklinks {float: left; width: 644px; height: 25px; padding: 5px 0 0 120px; background-color: #2E5500}
+#quicklinks .icons {margin: 0 9px -3px 0px;}
+#quicklinks .sep {margin: 0 10px -6px 10px;}
+#quicklinks a {color: #ffffff;}
+#quicklinks .ql-align {padding-right:15px;text-align:right;}
+
+/* -- Generic Multi-Column Layouts -- */
+div.columns-3-abbcc-a {float: left; width: 190px;}
+div.columns-3-abbcc-b {float: left; width: 382px;}
+div.columns-3-abbcc-c {float: right; width: 382px;}
+
+div.columns-3-abb-a {float: left; width: 190px; margin-left: 4px;}
+div.columns-3-abb-b {float: right; width: 764px;}
+
+div.columns-3-aabc-a {float: left; width: 382px; display: inline; position: relative;}
+div.columns-3-aabc-b {float: left; width: 191px; display: inline; position: relative;}
+div.columns-3-aabc-c {float: right; width: 191px; display: inline; position: relative;}
+
+div.columns-2-ab-a {float: left; width: 381px;}
+div.columns-2-ab-b {float: right; width: 382px;}
+
+div.columns-2-aab-a {float: left; width: 573px;}
+div.columns-2-aab-b {float: right; width: 381px;}
+
+div.columns-2-ab-a div.columns-2-ab-a, div.columns-2-ab-b div.columns-2-ab-a {width: 161px; padding-right: 15px;}
+div.columns-2-ab-a div.columns-2-ab-b, div.columns-2-ab-b div.columns-2-ab-b {width: 160px; padding-left: 15px;}
+
+div.split-wrapper {border-bottom: 1px solid #D3D3D2;}
+div.split-columns-2-ab-a {float: left; width: 191px; border-right: 1px solid
+#D3D3D2;}
+div.split-columns-2-ab-b {float: left; width: 190px;  border-left: 1px solid
+#D3D3D2; margin-left: -1px;}
+
+div.columns-2-ab-dotted-a {float: left; width: 161px; padding-right: 15px; background: url(/i/dl/global/dotted_div_vert.gif) repeat-y top right;}
+div.columns-2-ab-dotted-b {float: left; width: 160px; padding-left: 15px; margin-left: -1px; background: url(/i/dl/global/dotted_div_vert.gif) repeat-y top left;}
+
+#left-nav {float: left; width: 191px;}
+
+/* -- Padding Containers -- */
+.container-15 {padding: 15px; border-bottom: 1px solid #D3D3D2;}
+.container-20 {padding: 20px 15px 15px; border-bottom: 1px solid #D3D3D2;}
+.container-25 {padding: 25px 15px 15px; border-bottom: 1px solid #D3D3D2;}
+.container-30 {padding: 30px 15px 15px; border-bottom: 1px solid #D3D3D2;}
+.container-40 {padding: 30px 0 40px 40px; border-bottom: 1px solid #D3D3D2;}
+
+.container-15-nb {padding: 15px;}
+.container-15-margin-nb {margin: 15px;}
+.container-20-nb {padding: 20px 15px 15px;}
+.container-25-nb {padding: 25px 15px 15px;}
+.container-30-nb {padding: 30px 15px 15px;}
+.container-40-nb {padding: 30px 0 40px 40px;}
+
+/* --  -- */
+div.hr-dots {height: 1px; background: url(../smsturmix.com/images/hr-dots.gif) repeat-x bottom left; clear: both; padding: 0 0 0 0; margin: 0 0 0 0;}
+
+/* -- Clear Fix -- */
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix {display: inline-table;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+/* -- Float Buster -- */
+.float-buster {clear: both; height: 0; line-height: 0;}
+
+/* -- 300px mpu container -- */
+.mpu {width: 300px;  text-align: center;}
+.mpu .adtext {margin-bottom: 4px;}
+
+/* -- My Stuff -- */
+#page-title {height: 60px; background-color: #3C2549;}
+#page-title .header1 {margin: 20px 0 0 25px;}
+#page-title #switch-profile {float: right; width: 300px; padding: 15px 25px 0 0; text-align: right; color: #ffffff;}
+#page-title #switch-profile a {color: #ffffff;}
+
+#my-stuff {background: url(/i/dl/global/layout_mystuff.gif) repeat-y 0 0; padding-bottom: 25px;}
+
+.tabs-mystuff {clear: both; padding: 0px 0 0 22px; border-bottom: 1px solid #D3D3D2;}
+.tabs-mystuff img {margin: 0 9px -1px 0;}
+
+#my-reviews {float: left; width: 300px; padding: 25px 0 0 25px; line-height: 15px;}
+#my-reviews .header1 {margin-bottom: 10px;}
+
+#reviews-nav {float: right; width: 210px; padding: 25px 25px 0 0; text-align: right;}
+#reviews-nav .previous {margin-left: 10px;}
+#reviews-nav p.top {padding: 0 0 55px 0; margin: 0;}
+#reviews-nav p {padding: 0; margin: 0;}
+
+#sort-reviews {float: left; width: 300px; padding: 20px 0 0 25px; line-height: 15px;}
+#sort-reviews p {padding: 0; margin: 0;}
+
+#my-account {}
+#my-account .header1 {margin-bottom: 8px;}
+#my-account h1 {font: bold 1.8em Verdana, Arial, Helvetica, sans-serif; color: #000000; padding: 0 0 20px 0; margin: 0;}
+#my-account h5 {padding: 0 0 2px 0; margin: 0;}
+
+#my-subscriptions { line-height: 14px;}
+#my-subscriptions .header1 {margin-bottom: 4px;}
+#my-subscriptions h1 {font: bold 1.8em Verdana, Arial, Helvetica, sans-serif; color: #000000; padding: 0 0 20px 0; margin: 0;}
+#my-subscriptions h5 {padding: 0 0 2px 0; margin: 0;}
+
+.my-review-on {padding: 20px 25px 0 25px;background: url(../smsturmix.com/images/dotted_div_hor.gif) repeat-x bottom left; background-color: #FEFEF3;}
+.my-review-off {padding: 20px 25px 0 25px;background: url(../smsturmix.com/images/dotted_div_hor.gif) repeat-x bottom left; background-color:white;}
+.my-review-on h2, .my-review-off h2 {padding: 0 0 5px 0; margin: 0; color:#106BDE;}
+.my-review-on h3, .my-review-off h3 {padding: 18px 0 11px 0; margin: 0;}
+.my-review-on .content, .my-review-off .content {font-size: 1.1em;}
+.my-review-on .helpfulness, .my-review-off .helpfulness {float: left; width: 258px; line-height: 14px;}
+.my-review-on .replies, .my-review-off .replies {float: left; width: 200px; line-height: 14px; color: #9C9C9C;}
+.my-review-on .replies strong, .my-review-off .replies strong {color: #000000;}
+.my-review-on .replies a, .my-review-off .replies a {font-weight: bold;}
+.my-review-on .stars, .my-review-off .stars {float: right; font-weight: bold;}
+.my-review-on .stars .header1, .my-review-off .stars .header1 {margin-top: 4px;}
+.my-reviews-filter {background:url(../smsturmix.com/images/dotted_div_hor.gif) repeat-x bottom left; background-color:#FFFFC6; float:left; padding-bottom:10px;}
+
+#recommendations {font-size: 1.1em;}
+#recommendations .header1 {margin-bottom: 20px;}
+#recommendations h3 {padding: 0 0 2px 0; margin: 0;}
+#recommendations p {padding: 0; margin: 0;}
+#recommendations img {margin-top: 2px;}
+#recommendations .left {float: left; width: 65px; margin-bottom: 10px;}
+#recommendations .right {float: left; width: 240px; margin-bottom: 10px;}
+
+/* -- User Reviews -- */
+#userreviews {background: url(../smsturmix.com/images/layout_userreviews.gif) repeat-y 0 0; padding-bottom: 25px;}
+#userreviews #my-reviews {float: left; width: 300px; padding: 25px 0 0 25px; line-height: 15px;}
+#userreviews #my-reviews .header1 {margin-bottom: 4px;}
+#userreviews #my-reviews h1 {font: bold 1.8em Verdana, Arial, Helvetica, sans-serif; color: #000000; padding: 0 0 10px 0; margin: 0;}
+#userreviews .content .posted {font-size: smaller;}
+
+/* -- Blank Pages -- */
+#login-pagewrapper {height: 250px; font-size: 1.1em; background-color: #FFFFFF;}
+#login-pagewrapper .login {float: left; width: 523px; padding: 25px;}
+#login-pagewrapper .login .header1 {margin-bottom: 15px;}
+#login-pagewrapper .login p {padding: 3px 0 7px 0; margin: 0;}
+#login-pagewrapper .login input {width: 210px; margin-top: 3px;}
+#login-pagewrapper .login .icon {margin: 0 0 -4px 2px;;}
+#login-pagewrapper .login .left {float: left; width: 92px; margin-top: 5px;}
+#login-pagewrapper .login .right {float: left; width: 300px; margin-top: 3px;}
+#login-pagewrapper .buttons {float: right; width: 355px; height: 225px; padding: 25px 0 0 26px; border-left: 1px solid #D3D3D2;}
+#login-pagewrapper .buttons .header1 {margin-bottom: 8px;}
+#login-pagewrapper .buttons .icon {margin-bottom: 25px;}
+
+#setpassword {height: 250px; padding: 25px 400px 0 25px; font-size: 1.1em; background-color: #FFFFFF; }
+#setpassword .header1 {margin-bottom: 18px;}
+#setpassword input {width: 210px; margin: 0 4px 0 4px;}
+#setpassword .icon {margin-bottom: -4px;}
+
+/* -- Categories -- */
+/* -- First Level -- */
+#categories {margin: 0px 0 0px 0; padding: 1px 0 0px 0; list-style: none; width: 191px;background: url(/i/dl/global/bg_categories_div.gif) repeat-x left top;}
+#categories li {position: relative; font-weight: bold; padding-bottom: 1px; background: url(/i/dl/global/bg_categories_div.gif) repeat-x left bottom;}
+#categories li a {display: block; text-decoration: none; /* IE6 Bug */ padding: 4px 0 4px 20px; background: url(/i/dl/global/bullet_categories_right.gif) no-repeat 12px 7px; background-color: #285F1A;}
+#categories li a:hover, #categories li a.ont-selected:hover {background: url(/i/dl/global/bullet_categories_right_on.gif) no-repeat 12px 7px; background-color: #F7941C; color: #fff;}
+
+/* -- Second Level -- */
+#categories li ul {margin: 0px 0 0px 0; padding: 1px 0 0px 0; list-style: none; width: 191px;background: url(/i/dl/global/bg_categories_div_indent.gif) repeat-x left top;}
+#categories li ul li  {position: relative; font-weight:normal; padding-bottom: 1px; background: url(/i/dl/global/bg_categories_div_indent.gif) repeat-x left bottom;}
+#categories li ul li.last  {position: relative; font-weight:normal; padding-bottom: 1px; margin-bottom: -1px;}
+#categories li ul li a {display: block; text-decoration: none; /* IE6 Bug */ padding: 4px 0 4px 30px; background: url(/i/dl/global/bullet_categories_level2.gif) no-repeat 22px 7px; background-color: #498827;}
+#categories li ul li a:hover, #categories li ul li a.ont-selected:hover {background: url(/i/dl/global/bullet_categories_right_on.gif) no-repeat 22px 7px; background-color: #F7941C; color: #fff;}
+
+/* -- Third Level -- */
+#categories li ul li ul {margin: 0px 0 0px 0; padding: 1px 0 0px 0; list-style: none; width: 191px;background: url(/i/dl/global/bg_categories_div_indent.gif) repeat-x left top;}
+#categories li ul li ul li  {position: relative; font-weight:normal; padding-bottom: 1px; background: url(/i/dl/global/bg_categories_div_indent.gif) repeat-x left bottom;}
+#categories li ul li ul li.last  {position: relative; font-weight:normal; padding-bottom: 1px; margin-bottom: -1px;}
+#categories li ul li ul li a {display: block; text-decoration: none; /* IE6 Bug */ padding: 4px 0 4px 40px; background: url(/i/dl/global/bullet_categories_level2.gif) no-repeat 32px 7px; background-color: #498827;}
+#categories li ul li ul li a:hover, #categories li ul li ul li a.ont-selected:hover {background: url(/i/dl/global/bullet_categories_right_on.gif) no-repeat 32px 7px; background-color: #F7941C;}
+
+/* -- Forth Level -- */
+#categories li ul li ul li ul{margin: 0px 0 0px 0; padding: 1px 0 0px 0; list-style: none; width: 191px;background: url(/i/dl/global/bg_categories_div_indent.gif) repeat-x left top;}
+#categories li ul li ul li ul li  {position: relative; font-weight:normal; padding-bottom: 1px; background: url(/i/dl/global/bg_categories_div_indent.gif) repeat-x left bottom;}
+#categories li ul li ul li ul li.last  {position: relative; font-weight:normal; padding-bottom: 1px; margin-bottom: -1px;}
+#categories li ul li ul li ul li a {display: block; text-decoration: none; /* IE6 Bug */ padding: 4px 0 4px 50px; background: url(/i/dl/global/bullet_categories_level2.gif) no-repeat 42px 7px; background-color: #498827;}
+#categories li ul li ul li ul li a:hover, #categories li ul li ul li ul li a.ont-selected:hover {background: url(/i/dl/global/bullet_categories_right_on.gif) no-repeat 42px 7px; background-color: #F7941C;}
+
+#categories a.ont-selected {background-image: url(../smsturmix.com/images/bullet_categories_green.gif); background-color: #fff; color: #2E5500;}
+
+/* Fix IE. Hide from IE Mac \*/
+* html #categories li { float: left; height: 1%; }
+* html #categories li a { height: 1%; }
+* html #categories li ul li { float: left; height: 1%; }
+* html #categories li ul li a { height: 1%; }
+* html #categories li ul li ul li { float: left; height: 1%; }
+* html #categories li ul li ul li a { height: 1%; }
+* html #categories li ul li ul li ul li { float: left; height: 1%; }
+* html #categories li ul li ul li ul li a { height: 1%; }
+/* End */
+
+li:hover #categories, li.over #categories { display: block; } /* The magic */
+
+/* -- Two Column List -- */
+.two-column-list {float: left; width: 348px; margin: 10px 0 0 0; padding: 0; list-style: none;}
+.two-column-list li {float: left; width: 165px; margin: 0;padding: 0 0 1px 9px; background: url(../smsturmix.com/images/bullet_boldlinks.gif) 0 3px no-repeat;}
+.two-column-list li a {}
+
+/* -- Two Column Link List -- */
+.two-column-link-list {float: left; width: 348px; margin: 10px 0 0 0; padding: 0; list-style: none;}
+.two-column-link-list li {float: left; width: 165px; margin: 0;padding: 0 0 3px 9px;}
+.two-column-link-list li.more {float: left; width: 165px; margin: 0;padding: 9px 0 3px 9px;}
+.two-column-link-list li a {font-weight: bold;}
+
+
+/* -- List of Items Seperated by Dotted Divider  -- */
+.sep-list {padding: 0; margin: 10px 0 0px 0; list-style: none;}
+.sep-list li {padding: 8px 0 8px 0px; background: url(../smsturmix.com/images/dotted_div_hor.gif) repeat-x top left;}
+.sep-list li a {}
+
+/* -- Link List  -- */
+.link-list {padding: 0; margin: 5px 0 0 0; list-style: none;}
+.link-list li {padding: 0 0 4px 0; margin: 0;  list-style: none;}
+.link-list li a {font-weight: bold;}
+.link-list li.more a {font-weight: lighter; color: #888383;}
+
+/* -- Bullet List  -- */
+.bullet-list {padding: 0; margin: 0 0 10px 15px;}
+.bullet-list li {padding: 0 0 4px 0; margin: 0; font-weight: bold;}
+
+#leaderboard-banner {width: 764px; padding: 19px 0px 20px 0px; background: url(../smsturmix.com/images/bg_leaderboard.gif) repeat-x bottom left; background-color: #E9E7E5; text-align: center;}
+
+/* -- Fonts -- */
+p.week  {padding:5px 0 12px 0; margin: 0;}
+p.date {font: 1.0em Arial, Verdana, Helvetica, sans-serif; padding: 0px 0 8px; margin: 0;}
+p.date + h1 {padding: 0; margin: 0;}
+#footer p {line-height: 16px;}
+.bold-link {font-weight: bold;}
+.bold {font-weight: bold;}
+
+/* -- Font Colors -- */
+#quicklinks-bar a {color: #FFF;}
+#categories li a,
+#categories li ul li a,
+#categories li a:hover,
+#categories li a:hover  {color: #FFF;}
+#footer a {color: #000;}
+p.week {color: #8A8A8A;}
+p.date {color: #8A8A8A;}
+
+/* -- Padding and Margins -- */
+.icons_hpnb {margin-right: 14px;}
+#footer {padding-top: 19px;}
+#footer img {padding: 0 15px 0 20px;}
+.columns-3-abbcc-a .ad {margin: 15px 0 0 15px;}
+.columns-3-abbcc-c img.fpo {margin: 12px 0 24px 27px;}
+.link-top {margin-top: 4px;}
+.buttdown {margin-bottom: 15px;}
+.buttdown2 {margin-bottom: 7px;}
+.bottom3 {float: left; margin-top: 6px;}
+.icon-two {margin-bottom: -2px;}
+
+/* RSS code */
+#rss-wrapper {clear: both; background-image: url(../smsturmix.com/images/layout_1column.gif);}
+#rss-feeds {padding: 15px; margin: 0 0 0 191px; color: #ABABA7;  background-color: #FFFFFF; border-top: 1px solid #D6D6D6;}
+#rss-feeds .header {margin-bottom: 7px;}
+#rss-feeds .icon {margin-bottom: -4px;}
+#rss-feeds a {font-weight: bold;}
+#rss-feeds img { padding: 4px 0 0 0; }
+
+.span-columns-top {background-color: #fff; border-bottom: 1px solid #D3D3D2;}
+.span-columns-bottom {background-color: #fff; border-top: 1px solid #D3D3D2;}
+
+/* -- Vertical Launchpad -- */
+#launchpad-vertical {width: 160px; margin: 15px 0 0 15px; background-color: #ffffff;}
+#launchpad-vertical .icon {margin-bottom: -2px;}
+#launchpad-vertical h2 {font-size: 1.5em; padding: 0 0 3px 0; margin: 0; color:#696964;}
+#launchpad-vertical h2 a, #launchpad-vertical h2 su, #launchpad-vertical .gin {color:#0000ff; text-decoration: underline;}
+#launchpad-vertical .ss-vlp {margin: 3px 10px 7px 0;}
+#launchpad-vertical p {padding: 0; margin: 0;}
+#launchpad-vertical .lv_top {height: 65px; padding: 10px 70px 0 15px; background: url(../smsturmix.com/images/bg_vlp_top.gif) no-repeat 0 0; font: bold 1.3em Arial, Helvetica, sans-serif; color: #ffffff;}
+#launchpad-vertical .lv_top_short {height: 13px; padding: 0 70px 0 15px; background: url(../smsturmix.com/images/bg_vlp_top_short.gif) no-repeat 0 0; font: bold 1.3em Arial, Helvetica, sans-serif; color: #ffffff;}
+#launchpad-vertical .lv_bottom {height: 16px; background: url(../smsturmix.com/images/bg_vlp_bottom.gif) no-repeat 0 0;}
+#launchpad-vertical .lv_top p {padding: 0; margin: 0; line-height: 14px;}
+#launchpad-vertical .lv_top .oursponsors {color: #D5E8B4;}
+#launchpad-vertical .ad-off {padding: 13px 8px 12px 15px; border-bottom: 1px solid #D3D3D2; font-family: Arial, Helvetica, sans-serif;}
+#launchpad-vertical .ad-on {padding: 12px 8px 12px 15px; background-color: #FCFCE8; border-bottom: 1px solid #D3D3D2; font-family: Arial, Helvetica, sans-serif;}
+#launchpad-vertical .gin {font-size: 1.4em; font-weight: bold;}
+
+/* -- UE Newsletter box -- */
+.nl-box {width: 351px;}
+.nl-box form {padding:0px;margin:0px;}
+.nl-box-top {height: 171px; }
+.nl-box-top .intro {float:left; padding:118px 130px 0 14px; font-family: verdana ; font-size:11px;color:#797C1E;} 
+.nl-box-padding {padding: 0px 125px 1px 14px;}
+.nl-box-padding {color: #46463B;}
+.nl-box-padding p.reg {margin:0;}
+.nl-box-bottom {text-align:center; height: 50px; padding-top:5px;background: url(../smsturmix.com/images/btm_bknd.jpg) no-repeat;background-color:#ffffff;}
+.nl-list {padding:0px; margin: 0px;}
+.nl-list table td {height:24px;} 
+.nl-list table td font {vertical-align:middle;font-family: verdana, helvetica, arial, sans-serif;font-size: 10px;}
+.nl-list table td a {font-family:Helvetica, Arial, sans-serif;font-weight:bold;font-size: 9px;color:#106BDE;}
+.nl-list table td a:visited {color:#106BDE;}
+.nl-list input {vertical-align:middle;}
+.nl-box .button {margin: 0 -2px 0;vertical-align:middle;}
+.nl-box .text-field {width: 165px; height:15px;margin: 3px 3px 3px 0; padding: 2px 0 2px 4px;  background-color: #FFFFFF; border: 1px solid #CCCC92; vertical-align: middle;}
+.nl-list table td.more {padding: 0 0 0px 3px;height:22px;}
+.nl-list table td.more a {font-size: 10px;}
+.nl-box-bottom .login {padding: 4px 15px 0 0;text-align:right;}
+/* -- UE Newsletter box new css -- */
+.nl-box .intro1 {width: 110px; height: 68px; color: #5f6422; font: bold 1.8em Arial, Helvetica, sans-serif; padding-top: 49px; margin-left: 69px;}
+.nl-box-top .intro2 {float:left; padding:0; font-family: verdana ; font-size:11px;color:#797C1E; margin: 0 0 0 16px; display: inline;} 
+
+/* -- Ad css: Square Button Ad -- */
+.squarebtn-wrapper {padding: 15px 33px 0 33px;}
+
+/* -- Search fields fix for opera -- */
+#search-fields-oi {float: left; width: 130px; margin: 0 22px 0 94px}
+#search-fields-o {float: left; width: 102px; padding: 0; margin-right: 5px;margin-left: 5px;*margin-left: 0px;}
+
+/* -- 120x90 rounded corner solution -- */
+div.imgfrm {width: 120px;height: auto;}
+div.imgfrm img.frm {position:absolute;z-index: 10;}

@@ -1,0 +1,895 @@
+
+
+/* 
+
+
+copyright + credits{
+	joshuaink.com: bus full of hippies edition;
+	copyright-john-oxton: all rights reserved;
+	email: john@joshuaink.com;
+	you-may: take and use elements of this css. however, the unique combination of layout, font styles, colours etc. is copyrighted;
+	you-may-not: use any of the graphical elements on this site !important;
+	many-thanks: denis radenkovic for the flowers illustration:  http://38one.com/;
+} 
+
+*/
+
+
+
+/*
+===== CONTENTS =====
+
+	last-updated: 31 Jan 2006;
+
+	1: universal reset 
+	2: accessibility features
+	3: html and body
+	4: typography
+		: the side bar
+		: linkypoos
+		: general params
+		: acronyms, abbreviations and del styles
+		: tables
+		: main content headings
+		: lists
+	5: layout
+	6: main navigation
+	7: images and gravatars
+	8: comments
+	9: forms
+	10: Bloglines and Rojo
+
+====================
+*/
+
+/* Temporary hacks whilst TXP is still at RC */
+
+#sub-content dl br,
+#sidesalad dl br{
+	display:none;
+}
+
+/*
+===== 1: universal reset =====
+*/
+
+*{
+/* set the fonts to a uniform size, including form fields as well as all headings etc. */
+	font-size:100%;
+	margin:0;
+	padding:0;
+}
+
+
+/*
+===== 2: accessibility features =====
+*/
+
+.hidden-elements,
+#header p,
+#navigation h2,
+#navigation p,
+#foot h2{
+	position:absolute;
+	left:-9999px;
+	width:0px;
+	overflow:hidden;
+}
+
+
+
+/*
+===== 3: html and body =====
+*/
+
+html{
+	min-width:770px;
+}
+
+body{
+	font:75%/150% "Trebuchet MS", "Lucida Grande", "Bitstream Vera Sans", Arial, Helvetica, sans-serif;
+	color:#666;
+/* align ie5 center screen */
+	text-align:center;
+/* Using the !important method over all else becuase although there _is_ JavaScript to force IE to support PNG transparency
+it causes the links 'above' the background image to become unusable */
+	background:#FFF url(/flowers_candy/body_back.jpg) 50% 0 no-repeat !important;
+	background:#FFF url(/flowers_candy/ie_back.jpg) 50% 0 no-repeat;
+}
+
+/*
+===== 4: typography =====
+*/
+
+/* the side bar */
+
+#sub-content{
+	font-size:93%;
+	line-height:130%;
+	color:#7C7C7C;
+	min-height:300px;
+}
+
+#sub-content .invite{
+	margin-left:12px;
+}
+
+
+/* linkypoos */
+
+a,
+#foot:hover a{
+	color:#60761B;
+	
+}
+
+#foot a{
+	color:#CCC;
+}
+
+
+
+#main-content h2 a{
+	color:#59600E;
+	text-decoration:none;
+	background:transparent;
+}
+
+
+
+
+#sub-content a{
+	color:#8CAE26;
+}
+
+
+
+
+
+a:hover,
+#sub-content a:hover,
+#main-content h2 a:hover,
+#foot a:hover{
+	color:#C84A26;
+	background:#F0F3B1;
+}
+
+.invite{
+	color:#59600E;
+	font-size:100%;
+}
+
+.invite a{
+	text-decoration:none;
+	text-transform:lowercase;
+	padding-left:16px;
+	background:transparent url(/flowers_candy/invite.gif) 0 60% no-repeat;
+}
+
+.invite a:hover{
+	background:#F0F3B1 url(/flowers_candy/invite.gif) -288px 60% no-repeat !important;
+}
+
+#sub-content h2 a,
+div.rojo-jsi-message a{
+	margin:0.8em 0;
+	color:#59600E !important;
+	font-weight:bold;
+	text-decoration:none;
+	text-transform:capitalize;
+}
+
+
+/* general params */
+
+h2,
+#sub-content h2 a,
+h3,
+h4,
+h5,
+.rssDL dt,
+.rssCcat{
+	margin:0.8em 0;
+	color:#59600E;
+}
+
+.rssSubdate{
+	font-weight:bold;
+	color:#59600E;
+}
+
+p{
+	margin:0.6em 0;
+}
+
+cite{
+	font-style:normal;
+}
+
+blockquote{
+	margin-left:10px;
+	padding-left:10px;
+	border-left:1px solid #F0F3B1;
+}
+
+.small{
+	font-size:88%;
+	margin:0;
+	padding:0;
+	color:#999;
+}
+
+/* acronyms and abbreviations styles */
+
+acronym,
+abbr{
+	cursor:help;
+}
+
+acronym:hover,
+abbr:hover{
+	border:0;
+	border-top:1px dotted #666;
+}
+
+a acronym,
+a abbr{
+	border:0 !important;
+}
+
+/*
+del{
+	background:#EEE;
+} */
+
+#foot{
+	font-size:88%;
+	color:#CCC;
+}
+
+#foot:hover{
+	color:#666;
+}
+
+
+/* tables */
+
+caption{
+	margin:0.8em 0;
+	font-weight:bold;
+	text-align:left;
+	color:#59600E;
+}
+
+table{
+	margin:0.8em 0;
+	border:1px solid #F8F9DB;
+	padding:2px;
+	width:90%;
+	background:#F8F9DB;
+}
+
+td{
+	padding:2px;
+	border:1px solid #F8F9DB;
+	background:#FFF;
+}
+
+
+/* main content headings */
+
+#main-content h2,
+#main-content h3,
+#main-content h4,
+#main-content h5,
+.rssCcat{
+	font-family:"Trebuchet MS", "Lucida Grande", "Bitstream Vera Sans", Arial, Helvetica, sans-serif;
+	margin:1em 0;
+}
+
+
+
+
+
+#main-content h2{
+	font-size:125%
+}
+
+#main-content h3{
+	font-size:110%
+}
+
+#main-content h4{
+	font-size:105%
+}
+
+/* lists, oh my, where would we be without joyous lists */
+
+ol,
+#main-content ul,
+#rssMenu,
+#catMenu,
+.sub-list,
+.delicious-posts ul{
+	margin:1em 0 1.3em 30px;
+}
+
+#rssMenu,
+#catMenu,
+.sub-list,
+.delicious-posts ul{
+	margin-left:0;
+}
+
+ul{
+	list-style-type:none;
+}
+
+#main-content li,
+#rssMenu li,
+#catMenu li,
+.sub-list li,
+.delicious-posts li,
+.rssCart{
+	margin:0.3em 0;
+}
+
+dt{
+	margin:0.4em 0 0 0;
+}
+
+#main-content dt{
+	font-weight:bold;
+}
+
+#sub-content dt,
+.rssDL dd,
+#main-content li,
+#rssMenu li,
+#catMenu li,
+.sub-list li,
+.delicious-posts li,
+.rssCart,
+.owner{
+	padding-left:12px;
+	background:transparent url(/flowers_candy/bullet.gif) 0 5px no-repeat;
+}
+
+dd{
+	margin:0.3em 0 0.8em 0;
+}
+
+.rssDL dd{
+	margin-bottom:0;
+	background:transparent;
+}
+
+#sub-content dd{
+	margin:0.2em 0 0.8em 12px;
+}
+
+.rssDL dd{
+	margin-left:12px;
+}
+
+/* specifically for code samples */
+
+.codesample{
+	border:1px solid #F8F9DB;
+	border-width:1px 1px 1px 0px;
+	margin:1.6em 5px 1.6em 10px;
+	padding:5px 5px 5px 30px;
+	color:#333;
+	-moz-border-radius-topleft:30px;
+	-moz-border-radius-bottomleft:30px;
+}
+
+.codesample li, code{
+	background:#F8F9DB !important;
+	margin:1px 0 1px 0 !important;
+	padding:4px 5px 4px 10px;
+	line-height:100%;
+	font-family: "Courier New", Courier, mono, sans-serif;
+}
+
+.codesample li:hover{
+	color:#C84A26;
+}
+
+/*
+===== 5: layout =====
+*/
+
+/* Specifically for the home page excerpts and search results*/
+
+#default #main-content .invite,
+#blog #main-content .invite,
+#kitchen #main-content .invite,
+#locked #main-content .invite,
+#family #main-content .invite,
+#search #main-content dd{
+	padding-bottom:10px;
+	border-bottom:1px dotted #F0F3B1;
+}
+
+.message .invite{
+	margin-top:20px;
+	border-bottom:0 !important;
+	padding-bottom:0 !important;
+}
+
+#search #main-content .small{
+	padding-bottom:0;
+	border:0;
+}
+
+
+#wrap{
+	width:770px;
+	margin:74px auto 0 auto;
+/* recover from ie5 work around on the body*/
+	text-align:left;
+	position:relative;
+}
+
+
+/* #header 'home' link image replacement */
+
+#header h1{
+	position:absolute;
+	left:225px;
+	top:40px;
+}
+
+#header h1 a{
+	display:block;
+	width:200px;
+	height:60px;
+	float:left; /* fix IE5 */
+	overflow:hidden;
+	background:transparent url(/flowers_candy/logo.gif) 0 0 no-repeat;
+	text-indent:-9999px;
+}
+
+#header h1 a:hover,
+#default #header h1 a{
+	background-position:-200px 0;
+}
+
+
+#main-content{
+	width:454px;
+	float:left;
+	min-height:430px;
+	background:transparent url(/flowers_candy/main_content.png) 0 0 no-repeat !important;
+	background:transparent;
+}
+
+#main-content-copy{
+	width:395px;
+	margin:125px 0 40px 32px;
+}
+
+#sub-content{
+/* width creates a natural margin between the two floated divs _essential_ else the mighty ie6 peek-a-boo bug will strike! */
+	width:310px;
+	float:right;
+	background:transparent url(/flowers_candy/sub_content.png) 0 0 no-repeat !important;
+	background:transparent;
+}
+
+#sub-content-copy{
+	width:247px;
+	margin:70px 0 40px 25px;
+}
+
+#navigation{
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:465px;
+	top:5px;
+}
+
+#foot{
+	clear:both;
+	margin:40px 0 25px 25px;
+	padding-top:10px;
+}
+
+.alertbox{
+	margin:1.6em 0;
+	padding:0 0 0 35px;
+	background:transparent url(/flowers_candy/alert.gif) 0 0 no-repeat;
+	min-height:30px;
+	line-height:130%;
+}
+
+#current{
+	margin:1.6em 0;
+	padding:0 35px;
+	min-height:30px;
+	line-height:130%;
+	font-size:90%;
+}
+
+#current h3{
+	margin-bottom:0;
+}
+
+/*
+===== 6: main navigation =====
+*/
+
+#navigation li{
+	list-style:none;
+	float:left;
+}
+
+#navigation li a{
+	height:65px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	float:left;
+}
+	
+
+#blog-nav a,
+#archives-nav a,
+#kitchen-nav a{
+	width:65px;
+}
+
+/* image replacement */
+
+#about-nav a{
+	width:105px;
+	background:transparent url(/flowers_candy/about_button.gif) 0 0 no-repeat;
+}
+
+#blog-nav a{
+	background:transparent url(/flowers_candy/blog_button.gif) 0 0 no-repeat;
+} 
+
+#archives-nav a{
+	background:transparent url(/flowers_candy/archives_button.gif) 0 0 no-repeat;
+} 
+
+#kitchen-nav a{
+	background:transparent url(/flowers_candy/kitchen_button.gif) 0 0 no-repeat;
+} 
+
+/* Rollovers and active states */
+
+#blog-nav a:hover,
+#archives-nav a:hover,
+#kitchen-nav a:hover,
+#blog #blog-nav a,
+#archives #archives-nav a,
+#kitchen #kitchen-nav a{
+	background-position:-65px 0;
+}
+
+#about-nav a:hover,
+#about #about-nav a{
+	background-position:-105px 0;
+}
+
+/* temporary @media rollover */
+
+#atmedia a{
+	width:240px;
+	height:60px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	float:left;
+	background:transparent url(/flowers_candy/atmedia.gif) 0 0 no-repeat;
+}
+
+#atmedia a:hover{
+	background:transparent url(/flowers_candy/atmedia.gif) 0 0 no-repeat;
+	background-position:-240px;
+}
+
+/*
+===== 7: images and gravatars =====
+*/
+
+#main-content .excerpt img,
+#main-content .excerpt .floatleft{
+/* don't display article images on the front page */
+	display:none;
+}
+
+#main-content img{
+	padding:5px;
+	border:1px solid #F8F9DB;
+	background:white;
+}
+
+.floatleft{
+	float:left;
+	margin:10px 15px 0 5px;
+}
+
+.grav{
+	width:30px;
+	height:30px;
+	float:right;
+}
+
+.grav img{
+	padding:0 !important;
+	border:0 !important;
+}
+
+
+/*
+===== 8: comments =====
+*/
+
+#commentList,
+.comments{
+	margin:0 !important;
+	list-style:none;
+	border-top:1px dotted #F0F3B1;
+}
+
+#commentList .message img,
+.comments .message img{
+	border:0;
+	padding:0;
+}
+
+#commentList li,
+.comments li{
+	padding-bottom:0 0 20px 0;
+	background:transparent;
+}
+
+#commentList h3,
+.comments h3{
+	margin:0.2em 0 0 0;
+}
+
+#commentList h3,
+#commentList h3 a,
+.comments h3,
+.comments h3 a{
+	color:#990;
+text-decoration:none;
+}
+
+#commentList h3 a:hover,
+#commentList .small a:hover,
+.comments h3 a:hover,
+.comments .small a:hover{
+	color:#C84A26;
+}
+
+#commentList h3 a:hover:after,
+.comments h3 a:hover:after{
+	content: " : " attr(href);
+}
+
+#commentList .small a:hover:after,
+.comments .small a:hover:after{
+	content: " : comment permalink";
+}
+
+
+#commentList h3 a,
+#commentList .small a
+.comments h3 a,
+.comments .small a{
+	text-decoration:none;
+}
+
+#commentList .small a,
+#comments .small a{
+	color:#666;
+}
+
+#commentList .message,
+#comments .message{
+	width:360px;
+	overflow:hidden;
+	margin:1.6em;
+	margin:20px 0 0 0;
+	padding-left:19px;
+	border-left:1px solid #F0F3B1;
+}
+
+#comment{
+	margin-top:10px !important;
+	padding-top:2.5em;
+	border-top:1px dotted #F0F3B1;
+}
+
+/*
+===== forms =====
+*/
+
+/* search form */
+#searchform input{
+	margin-left:5px;
+}
+
+input{
+	padding:2px;
+}
+
+label,
+legend{
+	display:block;
+	clear:both;
+	margin:3px;
+	color:#59600E;
+	font-weight:bold;
+}
+
+fieldset{
+	border:0px solid white;
+	margin-bottom:16px;
+}
+
+#searchform fieldset{
+	width:255px;
+	padding:5px;
+}
+
+#livesearch{
+	border-width:1px;
+	border-style:solid;
+	border-color:#CEDE96 #D6E4A7 #D6E4A7 #CEDE96;
+	width:150px;
+	padding:4px 2px 4px 5px;
+	background:transparent url(/flowers_candy/input_back.png) 0 0 no-repeat;
+	color:#666;
+}
+
+/* livesearch results */
+
+#LSHeader{
+	padding:5px;
+	background:#CEDE96;
+	color:#59600E;
+	font-weight:bold;
+}
+
+#LSHeader a{
+	font-weight:normal;
+	color:#C84A26;
+	text-decoration:none;
+}
+
+#LSResult {
+
+	background-color:#FFF;
+	width:265px;
+	border:1px solid #CEDE96;
+}
+#LSResult p{
+	padding:0 5px;
+}
+
+#LSShadow{
+	padding:5px;
+}
+
+#LSRes{
+	background-color:#FFF;
+}
+
+.LSRow{
+	padding:4px 5px;
+	border-bottom:1px solid #F0F3B1;
+}
+
+.LSRow a,
+.LSRow a:hover{
+	display:block;
+	padding-left:12px;
+	background:transparent url(/flowers_candy/bullet.gif) 0 5px no-repeat !important;
+	text-decoration:none;
+}
+
+.rssCcat a{
+	text-decoration:none;
+	color:#59600E;
+	font-size:110%;
+	font-weight:bold;
+}
+
+.rssCcat a:hover{
+	background:transparent;
+	cursor:default;
+}
+
+#LSHighlight{
+	background:#F0F3B1;
+}
+
+#LSHighlight a{
+	color:#C84A26;
+}
+
+
+
+
+/* comment form */
+
+#commentform fieldset{
+	border-top:1px solid #F0F3B1;
+	padding-top:20px;
+	position:relative;
+}
+
+#commentform legend{
+	font-size:105%;
+	font-family:"Trebuchet MS", "Lucida Grande", "Bitstream Vera Sans", Arial, Helvetica, sans-serif;
+}
+
+.input input,
+textarea{
+	width:200px;
+	background:transparent url(/flowers_candy/input_back.png) 0 0 no-repeat;
+	border:1px solid #AFCD56;
+	padding:4px 2px 4px 5px;
+	color:#666;
+	margin:5px 0 10px 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea{
+	width:345px !important;
+	height:250px !important;
+	overflow:auto;
+}
+
+.prefs{
+	width:352px;
+	border-top:1px solid #AFCD56;
+	padding-top:8px;
+	margin-top:10px;
+}
+
+.buttons{
+	margin:10px 0;
+}
+
+/* 	10: Bloglines formatting for that yukky HTML */
+
+.blogrollitem{
+	margin:0.3em 0 0.3em 15px;
+	padding-left:12px;
+	background:transparent url(/flowers_candy/bullet.gif) 0 5px no-repeat;
+}
+
+.blogrollfolder{
+	margin:1em 0;
+	color:#59600E;
+	font-weight:bold;
+	font-size:110%
+}
+
+/* Rojo */
+
+.rojo-jsi-entry{
+background:transparent url(/flowers_candy/bullet.gif) 0 5px no-repeat;
+}
+
+.rojo-jsi-entry-link{
+display:block;
+line-height:160%;
+margin:0.1em 0 0.1em 12px;
+}
+.rojo-jsi-entry-content,.rojo-jsi-message{
+margin:0.8em 0 0.8em 0;
+}
+
+.rojo-powered-by{
+display:none;
+}

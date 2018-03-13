@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>photo.turmix :: Tus fotos, en tu móvil!</title>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="author" content="GirafaTools - http://www.girafatools.com" />
+	<meta name="copyright" content="GirafaTools 2006-2007" />
+	<meta name="description" lang="es" content="SmsTurmix te permite poner en tu móvil tus contenidos multimédia y compartirlos con la comunidad Turmix." />
+	<meta name="description" lang="en" content="SmsTurmix allows to you to put your own multimedia content to your hand phone and share it with the Turmix comunity." />
+	<meta name="description" lang="cat" content="SmsTurmix et permet posar al teu móvil els teus continguts multimédia i compartir-los amb la comunitat Turmix." />
+	<meta name="keywords" lang="es" content="smsturmix teléfono móvil multimédia foto video audio animacion jpg gif 3gp mp4 mp3 sms wap" />
+	<meta name="keywords" lang="en" content="smsturmix hand phone handset multimedia photo video audio animation jpg gif 3gp mp4 mp3 sms wap" />
+	<meta name="keywords" lang="cat" content="smsturmix telefon mòbil multimèdia foto vídeo audio animació jpg gif 3gp mp4 mp3 sms wap" />
+	<link rel="shortcut icon" href="favicon.ico" />
+
+  <style type="text/css">
+  /*<![CDATA[*/
+   td.photo {
+	background: url(u_photo3.gif);
+	cursor: pointer;
+	cursor: pointer;
+	vertical-align: middle;
+}
+   td.video { background: url(u_video.gif); cursor: hand; cursor: pointer;}
+   td.audio { background: url(u_audio.gif); cursor: hand; cursor: pointer;}
+   td.anima { background: url(u_anima3.gif); cursor: hand; cursor: pointer;}
+  /*]]>*/
+  </style>
+</head>
+
+<body>
+<script type="text/javascript">
+//<![CDATA[
+function gebi(id) { return document.getElementById(id); }
+function show(id,b)
+{
+  e=gebi(id);
+  e.style.display=b;
+}
+function s(id)
+{
+  e=gebi('none');
+  e.style.display='none';
+  e.style.visibility='hidden';
+  e=gebi(id);
+  e.style.visibility='visible';
+  e.style.display='block';
+}
+function h(id)
+{
+  e=gebi(id);
+  e.style.visibility='hidden';
+  e.style.display='none';
+  e=gebi('none');
+  e.style.visibility='visible';
+  e.style.display='block';
+}
+//]]>
+</script>
+<table width="903" height="80" border="0" align="center">
+  <tr>
+    <td width="106" align="center" valign="middle"><img src="arrows.gif" id="arr" style="display:none;" /></td>
+    <td width="427" height="70"><img style="display:none;" id="mup" src="m_sube.gif" /><img style="display:none;" id="mfot" src="m_fototeca.gif" /></td>
+    <td width="358" align="right"><a href="http://www.smsturmix.com"><img src="logo.gif" border="0"/></a></td>
+  </tr>
+</table>
+<table width="905" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr background="u_audio.gif">
+    <td colspan="8" align="left"><img src="u_top.gif" width="905" height="11" /></td>
+  </tr>
+  <tr align="left" valign="top">
+    <td width="105" background="p0.gif">&nbsp;</td>
+    <td width="150" height="34" class="photo" onMouseOver="show('pho','block');" onMouseOut="show('pho','none');"><img style="display:none" id="pho" src="r_photo3.gif"/></td>
+    <td width="117" height="34" class="video" onMouseOver="show('vid','block');" onMouseOut="show('vid','none');"><img style="display:none" id="vid" src="r_video.gif"/></td>
+    <td width="118" height="34" class="audio" onMouseOver="show('aud','block');" onMouseOut="show('aud','none');"><img style="display:none" id="aud" src="r_audio.gif"/></td>
+    <td width="153" height="34" class="anima" onMouseOver="show('ani','block');" onMouseOut="show('ani','none');"><img style="display:none" id="ani" src="r_anima3.gif"/></td>
+    <td width="43" background="p1.gif">&nbsp;</td>
+    <td width="141" align="center" valign="middle" background="cerca.gif"><input name="textfield" type="text" dir="ltr" lang="es" size="17" maxlength="40" /></td>
+    <td width="78"><img style="cursor:pointer;cursor:hand;" alt="Buscar vídeos" title="Buscar vídeos" src="bcerca.gif" height="34" /><img src="p2.gif" width="41" height="34" /></td>
+  </tr>
+</table>
+  
+  
+  <table width="905" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="30" align="left" valign="top" background="p3.gif"></td>
+    <td width="272" rowspan="4"><img style="display:none" id="back" src="r12_back.gif" width="219" height="60" /><img style="display:none" id="cancel" src="r12_cancel.gif" width="219" height="60" /><img style="display:none" id="next" src="r12_next.gif" width="219" height="60" /></td>
+  </tr>
+  <tr>
+    <td height="329" align="left" valign="top" background="p4.gif"></td>
+  </tr>
+  <tr>
+    <td height="54" align="left" valign="top"><img src="p5.gif" width="331" height="54" /><img src="p6.gif" style="cursor:pointer;cursor:hand;" alt="Anterior" title="Anterior" width="59" height="54" /><img src="p7.gif" style="cursor:pointer;cursor:hand;" title="Cancelar" alt="Cancelar" width="64" height="54" /><img src="p8.gif" style="cursor:pointer;cursor:hand;" title="Siguiente" alt="Siguiente" width="63" height="54" /><img src="p9.gif" width="116" height="54" /></td>
+  </tr>
+  <tr>
+    <td width="633" height="68" align="left" valign="top" background="p10.gif"></td>
+	</tr>
+  
+  
+  <tr>
+    <td colspan="3"><img src="p_foot.gif" width="882" height="25" /></td>
+  </tr>
+</table>
+</body>
+</html>

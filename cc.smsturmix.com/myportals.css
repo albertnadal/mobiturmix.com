@@ -1,0 +1,254 @@
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	text-decoration:none;
+	width:270px;
+	margin:0px 0px 0px 10px;
+	padding:0;
+	}
+
+a {
+	color:#000000;
+	}
+
+a:hover {
+	text-decoration:none;
+	}
+
+.status_y {
+	color:#669900;
+	}
+
+.status_n {
+	color:#CC6600;
+	}
+	
+.status_0 {
+	color:#999999;
+	}	
+
+ul, li {
+	padding:3px;
+	margin:0;
+	list-style:none;
+	}
+
+img {
+	margin:0px 4px 0px 0px;
+	vertical-align:bottom;
+	border:none;
+	}
+
+img.popup {
+	cursor:pointer;
+	background-color:#E0E0E0;	
+	}
+	
+img.popup:hover {
+	background-color:#C6C6C6;
+	}	
+	
+hr {
+	border-top:#CCCCCC 1px solid;
+	border-bottom:none; /* All browsers */
+	_border-bottom:#FFFFFF 1px solid; /* IE only */
+	border-left:none;
+	border-right:none;
+	}
+	
+	
+.bold {
+	font-weight:bold;
+	}
+
+.right {
+	float:right;
+	}
+	
+.clear {
+	clear:both;
+	}
+
+/* Titols llista */
+
+div.title {
+	margin:10px 0px 0px 0px;
+	padding:2px;
+	border-top:#999999 1px solid;
+	}
+	
+div.title_on {
+	background-color:#FFDD00;
+	}
+	
+div.title_off {
+	background-color:#DCDCDC;
+	}	
+
+.title {
+	font-size:12px;
+	font-weight:bold;
+	}
+
+.title_right {
+	float:right;
+	margin-right:4px;
+	font-size:10px;
+	font-weight:normal;
+	}
+
+.title_sub {
+	color:#666666;
+	}	
+
+/* Cercador */
+
+div.search {
+	background-color:#EDEDED;
+	margin:0;
+	padding:3px;
+	}
+
+input {
+	font-size:10px;
+	margin:0px 1px 0px 0px;  /* All browsers */
+	_margin:0px; /* IE only */
+	}	
+	
+input.text {
+	color:#000;
+	background-color:#FFF;
+	border:1px solid;
+	border-top-color:#999;
+	border-left-color:#999;
+	border-right-color:#D6D6D6;
+	border-bottom-color:#D6D6D6;
+	}	
+	
+input.btn {
+	color:#000;
+	background-color:#DDD;
+	border:1px solid;
+	border-top-color:#D6D6D6;
+	border-left-color:#D6D6D6;
+	border-right-color:#999;
+	border-bottom-color:#999;
+	cursor:pointer;
+	}
+	
+/* Paginador*/
+
+.pager {
+	background-color:#EDEDED;
+	border-bottom:#999999 1px solid;	
+	margin:0px 0px 5px 0px;
+	padding:2px;
+	}
+	
+.links ul li {
+	padding:0;
+	display:inline;
+	}
+	
+.box a {
+	padding:0px 2px;
+	border:#CCCCCC 1px solid;
+	text-decoration:none;
+	}
+	
+.box a:hover {
+	background-color:#FFFFFF;
+	text-decoration:none;
+	}
+	
+/* Desplegables */
+
+form {
+	margin:0;
+	padding:0;
+	}
+
+select {
+	font-family: verdana, arial, hevetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	background-color:#FFF;
+	border:1px solid;
+	border-top-color:#999;
+	border-left-color:#999;
+	border-right-color:#D6D6D6;
+	border-bottom-color:#D6D6D6;
+	}
+	
+select.categories {
+	margin:5px;
+	width:250px;
+	}
+	
+select.pages {
+	margin:1px;
+	width:75px;
+	}
+	
+select.list {
+	margin:1px;
+	width:90px;
+	}
+	
+/* Opcions llista categories */
+
+.options {
+	border-bottom:#CCCCCC 1px dashed;
+	margin:0px;
+	padding:2px;
+	}
+	
+.options_admin {
+	background-color:#FFFFCC; /* All browsers */
+	_background:none; /* IE only */
+	}
+
+input.nav {
+    font: 10px arial;
+    border-color : #000000;
+  }
+
+input.navega_next {
+    background : url('/imatges/next.gif') no-repeat center right;
+    font : bold 12px arial;
+    border : #d3d3d3 solid 1px;
+    width : 18px;
+    position: center;
+    cursor: pointer;
+  }
+input.navega_next:hover { background-color: #FFFFDE }
+
+input.navega_next_next {
+    background : url('/imatges/next_next.gif') no-repeat center right;
+    font : bold 12px arial;
+    border : #d3d3d3 solid 1px;
+    text-align : center;
+    width : 20px;
+    cursor: pointer;
+  }
+input.navega_next_next:hover { background-color: #FFFFDE }
+
+input.navega_prev {
+    background : url('/imatges/prev.gif') no-repeat center right;
+    font : bold 12px arial;
+    border : #d3d3d3 solid 1px;
+    text-align : left;
+    width : 18px;
+    cursor: pointer;
+  }
+input.navega_prev:hover { background-color: #FFFFDE }
+
+input.navega_prev_prev {
+    background : url('/imatges/prev_prev.gif') no-repeat center right;
+    font : bold 12px arial;
+    border : #d3d3d3 solid 1px;
+    text-align : left;
+    width : 20px;
+    cursor: pointer;
+  }
+input.navega_prev_prev:hover { background-color: #FFFFDE }

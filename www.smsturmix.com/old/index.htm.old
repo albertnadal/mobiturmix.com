@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><title>SMSTURMIX :: Tu contenido multimedia en tu móvil</title>
+
+
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="imagetoolbar" content="false">
+  <link href="css/scriptaculous.css" media="screen" rel="Stylesheet" type="text/css">
+  <script src="js/prototype.js" type="text/javascript"></script>
+  <script src="js/scriptaculous.js" type="text/javascript"></script><script type="text/javascript" src="js/builder.js"></script><script type="text/javascript" src="js/effects.js"></script><script type="text/javascript" src="js/dragdrop.js"></script><script type="text/javascript" src="js/controls.js"></script><script type="text/javascript" src="js/slider.js"></script><style type="text/css">
+<!--
+body {
+	background-image: url(images/bg.png);
+	background-repeat: repeat;
+}
+.Estilo4 {font-size: 11px}
+-->
+  </style></head><body>
+  
+  <div style="top: 0px; left: 30px;" id="smsturmix">
+    <img src="images/smsturmix_logo.png" alt="" name="logo" width="550" height="201" id="logo" style="display: block;">  </div>
+  
+  <div id="content">
+  
+  <noscript>
+    <div style="color:#fff;text-align:center;width:100%;position:absolute;top:200px">
+    You really, really need to enable JavaScript to view this page.<br/>
+    You know, it's about JavaScript.<br/>
+    <br/>
+    And it will make your life much easier, but it's up to you.
+    </div>
+  </noscript>
+  
+  <div id="pos1-bubble" style="cursor: pointer; cursor: hand; display: block; left: 20px; top: 160px; opacity: 0.999999; font-size: 13px; width: 310px; height: 310px; z-index: 0;" onclick="document.location.href='http://photo.smsturmix.ct';">
+    <img class="shot" src="images/shot.png" alt="">
+    <h1 id="photo-bubble-handle">photo.turmix!</h1>
+    <p style="opacity: 0.999999;"><span class="Estilo4">Imagina <strong>la foto que tu quieras en tu móvil</strong> en<br />
+      tan solo un momento... Tu último viaje, tu grupo,<br />
+      tu artista favorito, tu pareja, tus amigos...<br />
+      Subes la foto, la ajustas, miras como quedará en tu<br />
+      móvil y te la descargas.
+    </span></p>
+    <p style="opacity: 0.999999;"><img src="images/cam_mob.png" alt="" width="165" height="80" /><br />
+      <br>
+    </p>
+  </div>
+  
+  <div id="pos2-bubble" style="display: block; left: 290px; top: 220px; opacity: 0.999999; font-size: 13px; width: 310px; height: 310px; z-index: 10;">
+    <img class="shot" src="images/shot.png" alt="">
+    <h1 align="center" id="ref-bubble-handle">video.turmix!</h1>
+    <table width="225" border="0" align="center">
+      <tr>
+        <td width="125"><p align="center" style="opacity: 0.999999;"><span class="Estilo4">Te apetece ver el videoclip de tu artista favorito en tu móvil? <strong>Pon el video que tu quieras en tu móvil!</strong></span></p>
+        <p align="center" style="opacity: 0.999999;"><img src="images/vcam.png" alt="" width="70" height="56" /></p></td>
+        <td width="100"><p align="center" style="opacity: 0.999999;"><span class="Estilo4"><img src="images/mob.png" alt="" width="95" height="155" />.</span></p></td>
+      </tr>
+    </table>
+    </div>
+  
+  <div id="pos3-bubble" style="display: block; left: 490px; top: 80px; opacity: 0.999999; font-size: 13px; width: 310px; height: 310px;">
+    <img class="shot" src="images/shot.png" alt="">
+    <h1 id="audio-bubble-handle">audio.turmix!</h1>
+    <p style="opacity: 0.999999;">
+    </p>
+    <p style="opacity: 0.999999;">
+    </p>
+  </div>
+  
+  <div id="pos4-bubble" style="display: block; left: 680px; top: 250px; opacity: 0.999999; font-size: 13px; width: 310px; height: 310px; z-index: 0;">
+    <img class="shot" src="images/shot.png" alt="">
+    <h1 id="anima-bubble-handle">anima.turmix!</h1>
+    <p style="opacity: 0.999999;">
+    </p>
+  </div>
+    
+   
+
+  
+  </div>
+
+  <script type="text/javascript">
+    // <![CDATA[
+      var Engine = {
+        detect: function() {
+          var UA = navigator.userAgent;
+          this.isKHTML = /Konqueror|Safari|KHTML/.test(UA);
+          this.isGecko = (/Gecko/.test(UA) && !this.isKHTML);
+          this.isOpera = /Opera/.test(UA);
+          this.isMSIE  = (/MSIE/.test(UA) && !this.isOpera);
+          this.isMSIE7 = this.isMSIE && !(/MSIE 6\./.test(UA) && !this.isOpera);
+        }
+      }
+      Engine.detect();
+      
+      // poor IE6 gets no shadows, ha!
+      if(Engine.isMSIE && !Engine.isMSIE7) {
+        $('logo').src = 'smsturmix_logo.gif';
+        $$('.shot').each(function(s){
+          s.src = 'shot.gif';
+        });
+      } else {
+        $('logo').src = 'images/smsturmix_logo.png';
+      }
+      
+      $('smsturmix').setStyle({top:'170px',left:'-700px'});
+      $('logo').setStyle({display:'block'});
+      
+      new Effect.Move('smsturmix',{ x: 730, y: -170 });
+    
+      function bubble(id,x,y){
+        $(id+'-bubble').setStyle({left:x+'px',top:y+'px'});
+        new Effect.Scale(id+'-bubble',100, Object.extend({
+          beforeStart:function(effect){
+            $(effect.element).style.display = 'block';
+            $(effect.element).setOpacity(0);
+            $$('#'+id+'-bubble p').each(function(p){p.hide()});
+          },
+          afterUpdate:function(effect){
+            $(effect.element).setOpacity(effect.position);
+          },
+          scaleFrom:0,
+          scaleFromCenter:true,
+          afterFinish:function(effect){
+            $$('#'+id+'-bubble p').each(function(p){
+              new Effect.Appear(p,{duration:0.4});
+            });
+          }
+        }, arguments[3] || {}));        
+      }
+      
+      bubble('pos1', 20, 160, { delay:0.2, duration:1.1 });
+      bubble('pos2', 290,220, { delay:0.5, duration:1.1 });
+      bubble('pos3', 490,80,  { delay:0.8, duration:1.1 });
+      bubble('pos4', 680,250, { delay:1.1, duration:1.1 });
+      
+      ['pos1-bubble','pos2-bubble','pos3-bubble','pos4-bubble'].each(function(b){
+        new Draggable(b,{revert:true,handle:b+'-handle'});
+      });
+    // ]]>
+  </script>
+  
+</body></html>

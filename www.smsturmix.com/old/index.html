@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>SMSTurmix :: Tu contenido, en tu móvil</title>
+</head>
+
+<body>
+<script>
+function set_msg(f)
+{
+  m=document['msg'];
+  a=document['arr'];
+  if(f!='')
+  {
+    img='m_'+f+'.jpg';
+    arr='block';
+    document[f].src='r_'+f+'.jpg';
+  }
+  else
+  {
+    img='';
+    arr='none';
+    
+  }
+  m.src = img;
+  a.style.display = arr;
+}
+</script>
+
+<table width="905" border="0" align="center">
+  <tr>
+    <td width="106" align="center" valign="middle"><img src="arrows.jpg" name="arr" style="display:none;"/></td>
+    <td width="427" height="70"><img src="" name="msg"/></td>
+    <td width="358" align="right"><img src="logo.jpg"/></td>
+  </tr>
+</table>
+<table width="905" height="377" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="53" colspan="2"><img src="p_top.jpg" width="905" height="53" /></td>
+  </tr>
+  <tr>
+    <td width="588" rowspan="4"><img src="p_left.jpg" width="588" height="370" /></td>
+    <td width="304" colspan="-1" style="cursor:hand;cursor:pointer;"><img src="p_photo.jpg" name="photo" onmouseover="set_msg('photo');" onmouseout="set_msg(''); this.src='p_photo.jpg';"/></td>
+  </tr>
+  <tr>
+    <td colspan="-1" style="cursor:hand;cursor:pointer;"><img src="p_video.jpg" name="video" onmouseover="set_msg('video');" onmouseout="set_msg(''); this.src='p_video.jpg';"/></td>
+  </tr>
+  <tr>
+    <td colspan="-1" style="cursor:hand;cursor:pointer;"><img src="p_audio.jpg" name="audio" onmouseover="set_msg('audio');" onmouseout="set_msg(''); this.src='p_audio.jpg';"/></td>
+  </tr>
+  <tr>
+    <td colspan="-1" style="cursor:hand;cursor:pointer;"><img src="p_anima.jpg" name="anima" onmouseover="set_msg('anima');" onmouseout="set_msg(''); this.src='p_anima.jpg';"/></td>
+  </tr>
+  <tr>
+    <td height="104" colspan="2"><img src="p_down.jpg" width="905" height="104" /></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="p_foot.jpg" width="882" height="25" /></td>
+  </tr>
+</table>
+</body>
+</html>

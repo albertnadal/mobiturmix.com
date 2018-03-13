@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>SMSturmix SMS Emulator</title>
+</head>
+<body>
+<center>
+<h3><b>SMSturmix SMS Emulator</b></h3>
+</center>
+<FORM name="enviar" method="post" action="http://sms.smsturmix.com">
+  <br>
+  <table width="623" border="1" cellpadding="0" cellspacing="0" align="center" bordercolor="black">
+    <tr> 
+      <td height="87" valign="top" width="619"> 
+        <table width="618" border="0" cellpadding="0" cellspacing="0" bgcolor="#F0F0F0">
+          <tr valign="bottom" align="center"> 
+            <td height="18"  bgcolor="#007EBB" width="183"><b><font color="#FFFFFF">telnum 
+              </font></b></td>
+
+            <td  bgcolor="#007EBB" colspan="2" width="435"><b><font color="#FFFFFF">keyword 
+              </font></b></td>
+          </tr>
+          <tr valign="middle" align="center"> 
+            <td height="15" bgcolor="#007EBB" width="183"><b><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"> 
+              <input type="text" name="telnum" size="14" value="" maxlength=35 >
+              </font></b></td>
+            <td height="30"  bgcolor="#007EBB" colspan="2" width="435"><b><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"> 
+              <input type="text" name="keyword" size="14" value="" maxlength=35 >
+              </font></b></td>
+          </tr>
+
+          <tr valign="middle" align="center"> 
+            <td height="15" bgcolor="#007EBB" width="183"> 
+              <div align="center"><font color="#FFFFFF"><b><font face="Arial, Helvetica, sans-serif" size="2">text 
+                <br>
+                <input type="text" name="text" size="14" value="" maxlength=35 >
+                </font></b></font></div>
+            </td>
+            <td height="30"  bgcolor="#007EBB" colspan="2" width="435"><b><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">provider 
+              <br>
+              <input type="text" name="provider" size="14" value="" maxlength=35 >
+              </font> </b></td>
+
+          </tr>
+          <tr valign="middle" align="center"> 
+            <td height="18"  bgcolor="#007EBB" width="183"> 
+              <font color="#FFFFFF"><b>date</b></font></td>
+            <td height="18"  bgcolor="#007EBB" colspan="2" width="435"><b><font color="#FFFFFF"> 
+              shortnum</font></b></td>
+          </tr>
+          <tr valign="middle" align="center"> 
+            <td height="30"  bgcolor="#007EBB" width="183"><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b> 
+              <input type="text" name="date" size="14" value="" maxlength=35 >
+
+              </b></font> </td>
+            <td height="30"  bgcolor="#007EBB" colspan="2" valign="middle" width="435"><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b> 
+              <input type="text" name="shortnum" size="14" value="" maxlength=35 >
+              </b></font><font color="3C5892"> </font></td>
+          </tr>
+          <tr valign="middle" align="center"> 
+            <td height="30"  bgcolor="#007EBB" width="183"><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b>key<br>
+              <input type="text" name="key" size="14" value="" maxlength=35 >
+
+              </b></font></td>
+            <td height="30"  bgcolor="#007EBB" colspan="2" valign="middle" width="435"><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"></td>
+          </tr>
+          <tr valign="middle" align="center"> 
+            <td height="30"  bgcolor="#007EBB" width="183"><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b>login<br>
+              <input type="text" name="login" size="14" value="" maxlength=35 >
+
+              </b></font></td>
+            <td height="30"  bgcolor="#007EBB" colspan="2" valign="middle" width="435"><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b>password<br>
+              <input type="text" name="password" size="14" value="" maxlength=35 >
+              </b></font></td>
+          </tr>
+          <tr valign="middle"> 
+            <td height="3" colspan="3" bgcolor="#007EBB"></td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+    <tr bgcolor="#006699"> 
+      <td height="43" valign="middle" width="619" bgcolor="#FFFFCC" align="center"> 
+        <input type="button" value="Send SMS" name="button2" onclick="document.forms[0].submit()">
+      </td>
+    </tr>
+  </table>
+</FORM>
+
+</body>
+</html>
